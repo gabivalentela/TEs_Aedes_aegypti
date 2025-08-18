@@ -1,0 +1,31 @@
+
+--- Data for Kenya ---
+
+--- Data for Senegal ---
+
+--- Data for Brazil ---
+
+--- Data for Colombia ---
+
+--- Data for Gabon ---
+
+--- Data for USA ---
+Traceback (most recent call last):
+  File "/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/FST_analysis/updated_FST/reference/FST_script_ref.py", line 146, in <module>
+    fst_pop1_pop2.to_csv(f'/work/users/g/a/gabivla/lab/SV_mosquitos/FST_analysis/TEs_updated_frequency/FST_values_{country1}_{country2}_ref.csv', index=False)
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/work/users/g/a/gabivla/lab/SV_mosquitos/FST_analysis/TEs_updated_frequency'

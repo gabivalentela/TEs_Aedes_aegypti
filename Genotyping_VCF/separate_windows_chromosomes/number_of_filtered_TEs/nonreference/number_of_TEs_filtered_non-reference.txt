@@ -1,0 +1,2 @@
+number of TEs in the filtered VCF file: 1574820
+number of TEs in the VCF file without filtering: 1758305

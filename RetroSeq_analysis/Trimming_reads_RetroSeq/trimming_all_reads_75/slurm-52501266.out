@@ -1,0 +1,42 @@
+WARNING: fastp uses up to 16 threads although you specified 24
+Read1 before filtering:
+total reads: 48580187
+total bases: 7145848712
+Q20 bases: 7059721678(98.7947%)
+Q30 bases: 6861638550(96.0227%)
+
+Read2 before filtering:
+total reads: 48580187
+total bases: 6621817626
+Q20 bases: 6362299137(96.0809%)
+Q30 bases: 5874768364(88.7184%)
+
+Read1 after filtering:
+total reads: 48495188
+total bases: 3623607144
+Q20 bases: 3590645898(99.0904%)
+Q30 bases: 3515157473(97.0071%)
+
+Read2 after filtering:
+total reads: 48495188
+total bases: 3559221004
+Q20 bases: 3432790005(96.4478%)
+Q30 bases: 3230326461(90.7594%)
+
+Filtering result:
+reads passed filter: 96990376
+reads failed due to low quality: 124274
+reads failed due to too many N: 45724
+reads failed due to too short: 0
+reads with adapter trimmed: 697296
+bases trimmed due to adapters: 20885860
+
+Duplication rate: 2.49342%
+
+Insert size peak (evaluated by paired-end reads): 150
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -w 24 -i /work/users/g/a/gabivla/data_mosquito/data_running_mcclintock/SRR_genomes_US/genomes_3/SRR6768011/SRR6768011_1.fastq.gz -I /work/users/g/a/gabivla/data_mosquito/data_running_mcclintock/SRR_genomes_US/genomes_3/SRR6768011/SRR6768011_2.fastq.gz -o /users/g/a/gabivla/trimed_reads/US_genomes/SRR6768011/SRR6768011_1.fastq.gz_75.fq -O /users/g/a/gabivla/trimed_reads/US_genomes/SRR6768011/SRR6768011_2.fastq.gz_75.fq --max_len1 75 --max_len2 75 
+fastp v0.23.4, time used: 86 seconds

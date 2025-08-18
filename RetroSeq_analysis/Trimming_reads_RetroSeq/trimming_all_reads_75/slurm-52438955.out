@@ -1,0 +1,42 @@
+WARNING: fastp uses up to 16 threads although you specified 24
+Read1 before filtering:
+total reads: 121406127
+total bases: 18210919050
+Q20 bases: 16376387190(89.9262%)
+Q30 bases: 14960687342(82.1523%)
+
+Read2 before filtering:
+total reads: 121406127
+total bases: 18210919050
+Q20 bases: 16711178059(91.7646%)
+Q30 bases: 15496967007(85.0971%)
+
+Read1 after filtering:
+total reads: 109602095
+total bases: 8194639774
+Q20 bases: 7781275802(94.9557%)
+Q30 bases: 7274097238(88.7665%)
+
+Read2 after filtering:
+total reads: 109602095
+total bases: 8195208976
+Q20 bases: 7947239906(96.9742%)
+Q30 bases: 7586365636(92.5707%)
+
+Filtering result:
+reads passed filter: 219204190
+reads failed due to low quality: 20682734
+reads failed due to too many N: 440
+reads failed due to too short: 2924890
+reads with adapter trimmed: 13813610
+bases trimmed due to adapters: 555375279
+
+Duplication rate: 11.9906%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -w 24 -i /users/g/a/gabivla/flycross_fastq/fastq_MALE_3-M3_S25/MALE_3-M3_ATCGATCG-TGCTTCCA_S25_L001_L002_R1_001.fastq -I /users/g/a/gabivla/flycross_fastq/fastq_MALE_3-M3_S25/MALE_3-M3_ATCGATCG-TGCTTCCA_S25_L001_L002_R2_001.fastq -o /users/g/a/gabivla/trimed_reads/flycross/fastq_MALE_3-M3_S25/MALE_3-M3_ATCGATCG-TGCTTCCA_S25_L001_L002_R1_001.fastq_75.fq -O /users/g/a/gabivla/trimed_reads/flycross/fastq_MALE_3-M3_S25/MALE_3-M3_ATCGATCG-TGCTTCCA_S25_L001_L002_R2_001.fastq_75.fq --max_len1 75 --max_len2 75 
+fastp v0.23.4, time used: 283 seconds

@@ -1,0 +1,14 @@
+                                        TE_information  ...                                          gene_name
+0    AaegL5_1_105195379_105196306_rnd_1_family_322_...  ...      ID=AAEL004238;description=unspecified product
+1    AaegL5_1_108054851_108055215_rnd_1_family_133_...  ...  ID=AAEL002903;Name=p110;description=phosphatid...
+2    AaegL5_1_109148444_109149203_rnd_3_family_308_...  ...                                               None
+3    AaegL5_1_116924932_116925416_rnd_1_family_771_...  ...  ID=AAEL005834;Name=GPRDOP2;description=GPCR Do...
+4    AaegL5_1_123399422_123399704_rnd_1_family_1128...  ...      ID=AAEL028013;description=unspecified product
+..                                                 ...  ...                                                ...
+97   AaegL5_3_344968066_344968476_rnd_1_family_663_...  ...                                               None
+98   AaegL5_3_351154003_351154309_rnd_1_family_866_...  ...      ID=AAEL011928;description=unspecified product
+99   AaegL5_3_58045326_58045817_rnd_1_family_147_Un...  ...                                               None
+100  AaegL5_3_6468542_6468708_rnd_1_family_242_DNA_...  ...      ID=AAEL027506;description=unspecified product
+101  AaegL5_3_89475382_89475723_rnd_1_family_117_Un...  ...      ID=AAEL005215;description=unspecified product
+
+[102 rows x 14 columns]
