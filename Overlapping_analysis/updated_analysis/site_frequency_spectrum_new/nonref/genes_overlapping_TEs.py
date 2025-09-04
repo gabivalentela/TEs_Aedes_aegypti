@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from itertools import combinations
 import matplotlib.pyplot as plt 
+import numpy as np
 
 def calculate_frequency_TE(df, country_name):
     """
@@ -27,6 +28,118 @@ def calculate_frequency_TE(df, country_name):
     
     return df
 
+def SFS_data(all_dfs):
+    """
+    Create a dictionary of DataFrames containing frequency counts for different categories across countries,
+    and include the total sum for each category.
+    
+    Parameters:
+    - all_dfs (dict): A nested dictionary where the first level keys are countries and second level keys
+                      are categories, with DataFrames as values.
+    
+    Returns:
+    - dict: A dictionary with countries as keys and DataFrames of frequency counts as values,
+            including a 'Total' row showing the sum for each category.
+    """
+    
+    dict_country = {}
+    for country, dfs in all_dfs.items():
+        freq_tables = {}
+        for category, df in dfs.items():
+            freq_counts = df['frequency_y'].value_counts().sort_index()
+            freq_tables[category] = freq_counts
+        
+        # Combine all frequency count Series into a single DataFrame
+        freq_df = pd.concat(freq_tables, axis=1)
+        freq_df = freq_df.fillna(0).astype(int)  # Fill missing values with 0
+        # Order the df by frequency - smallest to largest
+        freq_df = freq_df.sort_index()
+        # Add a row with the sum total for each column
+        freq_df.loc['Total'] = freq_df.sum()
+        # divide each row by the total number of TEs
+        freq_df = freq_df.div(freq_df.loc['Total'], axis=1)
+        # Remove the 'Total' row from the frequency counts
+        freq_df = freq_df.drop('Total')
+        
+        dict_country[country] = freq_df
+    
+    return dict_country
+            
+def plot_SFS(all_dfs, name="SFS"):
+    """
+    Plot the Site Frequency Spectrum (SFS) for each country with all categories displayed
+    side by side as different colored bars.
+
+    Parameters:
+    - all_dfs: Dictionary where keys are country names and values are DataFrames
+               with frequencies as index and categories as columns.
+    - name: Base name for the output SVG files.
+    """
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    colors = {
+        'overlaping_rep_exons': 'blue',
+        'overlapping_exons_not_rep': 'green',
+        'overlapping_rep_not_exon': 'orange',
+        'not_overlapping_exon_rep': 'red'
+    }
+
+    for country, df in all_dfs.items():
+        # Filter out the 'Total' row if it exists
+        if 'Total' in df.index:
+            plot_df = df.drop('Total')
+        else:
+            plot_df = df
+            
+        # Get categories present in this dataset
+        categories = [cat for cat in colors.keys() if cat in plot_df.columns]
+        
+        # Set up the plot
+        plt.figure(figsize=(12, 6))
+        
+        # Calculate bar width based on number of categories
+        bar_width = 0.8 / len(categories)
+        
+        # Set up x positions for each group of bars
+        x = np.arange(len(plot_df.index))
+        
+        # Plot each category as a set of bars
+        for i, category in enumerate(categories):
+            # Calculate the position for this category's bars
+            x_pos = x - (0.4 - bar_width/2) + i * bar_width
+            
+            plt.bar(x_pos, 
+                   plot_df[category].values, 
+                   width=bar_width, 
+                   color=colors[category], 
+                   label=category.replace("_", " ").title())
+        
+        # Set up plot labels and legend
+        plt.xlabel('Frequency')
+        plt.ylabel('Count of insertions')
+        plt.title(f'Site Frequency Spectrum - {country}')
+        
+        # Set x-tick positions at the center of each group
+        plt.xticks(x, [f"{val:.2f}" for val in plot_df.index], rotation=45)
+        
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(f"{name}_{country}_all_categories.svg")
+        plt.close()
+        
+        # Also create individual plots for each category (optional)
+        for category in categories:
+            plt.figure(figsize=(10, 5))
+            plt.bar(x, plot_df[category].values, width=0.6, color=colors[category])
+            plt.xlabel('Frequency')
+            plt.ylabel('Count of insertions')
+            plt.title(f'{category.replace("_", " ").title()} - {country}')
+            plt.xticks(x, [f"{val:.2f}" for val in plot_df.index], rotation=45)
+            plt.tight_layout()
+            plt.savefig(f"{name}_{country}_{category}.svg")
+            plt.close()
+
 repetitive_overlap_ref_files = '/work/users/g/a/gabivla/lab/SV_mosquitos/overlap_analysis_repetitive_regions/'
 files = os.listdir(repetitive_overlap_ref_files)
 # keep only files from list that have _ref on them
@@ -40,7 +153,6 @@ files = os.listdir(exons_overlap_nonref_files)
 files = [file for file in files if '_nonref' in file]
 # make df from the first file in the list
 df_overlap = pd.read_csv(exons_overlap_nonref_files + files[0])
-df_overlap = df_overlap.groupby(['TE_name', 'chromosome', 'position_start', 'position_end']).first().reset_index()
 
 # get VCF to check frequency in each country
 df = pd.read_csv('/work/users/g/a/gabivla/lab/SV_mosquitos/VCF_genotypes_TEs/separate_chromosomes_windows_reference/merged_nonreference/VCF_nonreference_post_processing.csv')
@@ -78,14 +190,8 @@ percentage_overlapping = {}
 all_dfs_ref_rep = {}
 percentage_overlapping_rep = {}
 
-# Define the desired order of countries
-desired_order = ['Brazil', 'Colombia', 'USA', 'Gabon', 'Kenya', 'Senegal']
-
-# Filter to only include countries that exist in your data and maintain the desired order
-countries_ordered = [country for country in desired_order if country in countries]
-
 # Split data by country
-for i, country in enumerate(countries_ordered):
+for i, country in enumerate(countries):
 
     # Get all columns for this country from the renamed genome columns
     country_cols = [col for col in df.columns 
@@ -131,6 +237,11 @@ for i, country in enumerate(countries_ordered):
     )
     #if 'attributes' not NaN:
     matched_rows_rep = merged_frequency_df_repetitive[merged_frequency_df_repetitive['rep_start'].notna()]
+    # unique set of TEs overlapping repeats
+    matched_rows_rep = matched_rows_rep.drop_duplicates(
+        subset=['TE_name', 'chromosome', 'position_start', 'position_end']
+    )
+    print(f"Unique TEs overlapping repetitive in {country}: {len(matched_rows_rep)}")
 
     # get rows that have NaN in 'attributes'
     non_matched_rows_rep = merged_frequency_df_repetitive[merged_frequency_df_repetitive['rep_start'].isna()]
@@ -145,50 +256,14 @@ for i, country in enumerate(countries_ordered):
     all_dfs_ref_rep[country] = matched_rows_rep, non_matched_rows_rep
 
 # Plot the results
-countries_plot = countries_ordered  # Use the ordered list
-percentages = [percentage_overlapping[country]['percentage'] * 100 for country in countries_plot]
-percentages_ref = [percentage_overlapping_rep[country]['percentage'] * 100 for country in countries_plot]
-
-# Create the bar plot - exons
-plt.figure(figsize=(10, 6))
-plt.bar(countries_plot, percentages, color='m', alpha=0.7, edgecolor='black')
-
-# Add labels above bars
-for i, perc in enumerate(percentages):
-    plt.text(i, perc + 1, f"{perc:.1f}%", ha='center', fontsize=10, fontweight='bold')
-
-# Labels and title
-plt.xlabel("Country")
-plt.ylabel("Percentage of TEs Overlapping Genes (%)")
-plt.title("Percentage of Transposable Elements (TEs) Overlapping Genes by Country")
-plt.xticks(rotation=45)
-plt.ylim(0, max(percentages) + 5)
-
-plt.savefig('percentage_TEs_overlapping_genes.svg')
-
-# Create the bar plot - repetitive
-plt.figure(figsize=(10, 6))
-plt.bar(countries_plot, percentages_ref, color='m', alpha=0.7, edgecolor='black')
-
-# Add labels above bars
-for i, perc in enumerate(percentages_ref):
-    plt.text(i, perc + 1, f"{perc:.1f}%", ha='center', fontsize=10, fontweight='bold')
-
-# Labels and title
-plt.xlabel("Country")
-plt.ylabel("Percentage of TEs Overlapping repetitive (%)")
-plt.title("Percentage of Transposable Elements (TEs) Overlapping repetitive by Country")
-plt.xticks(rotation=45)
-plt.ylim(0, max(percentages_ref) + 5)
-
-plt.savefig('percentage_TEs_overlapping_rep.svg')
+# Extract values for plotting
+countries = list(percentage_overlapping.keys())
+percentages = [percentage_overlapping[country]['percentage'] * 100 for country in countries]  # Convert to percentage
+percentages_ref = [percentage_overlapping_rep[country]['percentage'] * 100 for country in countries]  # Convert to percentage
 
 top_genes = {}  # Store the most frequent gene for each country
 gene_frequencies = {}  # Store the frequency of the top gene in the population
-TE_frequencies_exon_rep = {}
-TE_frequencies_exon_not_rep = {}
-TE_frequencies_not_exon_rep = {}
-TE_frequencies_not_exon_not_rep = {}
+all_categories = {}
 
 for country, dfs in all_dfs_ref.items():
     df = dfs[0]
@@ -220,100 +295,13 @@ for country, dfs in all_dfs_ref.items():
     how="inner"
     )
 
-    attribute_columns = df['attributes'].str.split(';', expand=True)
-    
-    gene_counts = attribute_columns[2].value_counts()
-    
-    # Get the most common gene
-    top_gene = gene_counts.idxmax()
-    top_gene_count = gene_counts.max()
+    all_categories[country] = {
+        'overlaping_rep_exons': overlaping_rep_exons,
+        'overlapping_exons_not_rep': overlapping_exons_not_rep,
+        'overlapping_rep_not_exon': overlapping_rep_not_exon,
+        'not_overlapping_exon_rep': not_overlapping_exon_rep
+    }
 
-    # Get the frequency of this gene in the population
-    gene_freq = df[df['attributes'].str.contains(top_gene, na=False)]['frequency'].mean()
-    # mean frequencies
-    # exon and rep
-    gene_freq_exon_rep = overlaping_rep_exons['frequency_x'].mean()
-    # exon and not rep
-    gene_freq_exon_not_rep = overlapping_exons_not_rep['frequency_x'].mean()
-    # not exon and rep
-    gene_freq_not_exon_rep = overlapping_rep_not_exon['frequency_x'].mean()
-    # not exon and not rep
-    gene_freq_not_exon_not_rep = not_overlapping_exon_rep['frequency_x'].mean()
-
-    # Store values
-    top_genes[country] = (top_gene, top_gene_count)
-    gene_frequencies[country] = gene_freq
-    TE_frequencies_exon_rep[country] = gene_freq_exon_rep
-    TE_frequencies_exon_not_rep[country] = gene_freq_exon_not_rep
-    TE_frequencies_not_exon_rep[country] = gene_freq_not_exon_rep
-    TE_frequencies_not_exon_not_rep[country] = gene_freq_not_exon_not_rep
-
-df_plot = pd.DataFrame({
-    'Exonic and Repetitive': TE_frequencies_exon_rep,
-    'Exonic and Non-Repetitive': TE_frequencies_exon_not_rep,
-    'Non-Exonic and Repetitive': TE_frequencies_not_exon_rep,
-    'Non-Exonic and Non-Repetitive': TE_frequencies_not_exon_not_rep
-})
-
-print(df_plot)
-
-ax = df_plot.plot(
-    kind='bar',
-    figsize=(10, 6),
-    color=["#fcbba1", "#fc9272", "#fb6a4a", "#cb181d"],
-    edgecolor='black'
-)
-
-# Place legend outside the plot with a title
-ax.legend(loc='center left', bbox_to_anchor=(1.0, 0.5), title="TE Type")
-
-# Adjust layout to avoid cutting off labels/legend
-plt.tight_layout()
-plt.xlabel("Country")
-plt.ylabel("Mean TE Frequency")
-plt.title("Mean TE Frequency: Overlapping vs. Not Overlapping Genes")
-plt.xticks(rotation=45)
-
-plt.savefig('TE_frequency_overlapping_vs_not.svg', bbox_inches='tight')
-
-# Plot the results
-fig, ax1 = plt.subplots(figsize=(12, 6))
-
-# Bar plot for gene counts
-countries = list(top_genes.keys())
-gene_counts = [v[1] for v in top_genes.values()]
-ax1.bar(countries, gene_counts, color='b', alpha=0.6)
-
-# Add gene name annotations above bars
-for i, country in enumerate(countries):
-    gene_name = top_genes[country][0]  # Get the gene name
-    gene_name = gene_name.replace('gene_id=', '')  # Remove 'gene_id=' prefix
-    ax1.text(i, gene_counts[i] + 2, gene_name, ha="center", fontsize=10, rotation=30, color="black")
-
-ax1.set_xlabel("Country")
-ax1.set_ylabel("Number of TEs overlapping gene exons", color="b")
-ax1.tick_params(axis="y", labelcolor="b")
-
-# Create a second y-axis
-ax2 = ax1.twinx()
-
-# Line plot for TEs overlapping genes
-ax2.plot(countries, gene_frequencies.values(), marker="o", color="r", label="TEs overlapping this GENE")
-
-# Line plot for TEs overlapping repetitive elements
-#ax2.plot(countries, TE_frequencies_overlap_rep.values(), marker="^", linestyle="--", color="green", label="TEs overlapping repetitive")
-
-# Line plot for TEs not overlapping genes
-# ax2.plot(countries, TE_frequencies_no_overlap.values(), marker="s", color="purple", label="TEs not overlapping genes")
-# ax2.plot(countries, TE_frequencies_overlap.values(), marker="s", color="orange", label="All TEs overlapping genes")
-
-ax2.set_ylabel("Average TE Frequency", color="r")
-ax2.tick_params(axis="y", labelcolor="r")
-
-# Add legends
-ax1.legend(loc="upper left")
-ax2.legend(loc="upper right")
-
-plt.xticks(rotation=45)
-fig.tight_layout()
-plt.savefig('genes_overlapping_TEs_and_all_tes.svg')
+categories_examples = SFS_data(all_categories)
+#print(categories_examples)
+plot_SFS(categories_examples)

@@ -1,0 +1,35 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+Kenya: Reference TEs = 32808, SNPs = 2088655
+Colombia: Reference TEs = 35042, SNPs = 1133372
+Gabon: Reference TEs = 28879, SNPs = 1708519
+USA: Reference TEs = 34543, SNPs = 1448295
+Senegal: Reference TEs = 28984, SNPs = 1593136
+Brazil: Reference TEs = 30691, SNPs = 908734
+: Reference TEs = N/A, SNPs = 2781265
+
+Full dictionary:
+{'Kenya': {'number_ref_TEs': 32808, 'number_snps': 2088655}, 'Colombia': {'number_ref_TEs': 35042, 'number_snps': 1133372}, 'Gabon': {'number_ref_TEs': 28879, 'number_snps': 1708519}, 'USA': {'number_ref_TEs': 34543, 'number_snps': 1448295}, 'Senegal': {'number_ref_TEs': 28984, 'number_snps': 1593136}, 'Brazil': {'number_ref_TEs': 30691, 'number_snps': 908734}, '': {'number_snps': 2781265}}
+Kenya: TE/SNP ratio = 0.015707716209713906
+Colombia: TE/SNP ratio = 0.030918356903117422
+Gabon: TE/SNP ratio = 0.016902943426441264
+USA: TE/SNP ratio = 0.02385080387628211
+Senegal: TE/SNP ratio = 0.01819304817667795
+Brazil: TE/SNP ratio = 0.03377335942090865
+Traceback (most recent call last):
+  File "/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_ref.py", line 137, in <module>
+    ref_data = data['number_ref_TEs']
+               ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'number_ref_TEs'

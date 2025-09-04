@@ -342,13 +342,8 @@ outfile = open('600_df_sizes.txt', 'w')
 for te_length_category in te_length_categories:
     print(f"\n--- Processing category: {te_length_category} ---")
     
-    # Create one figure per category with subplots for all countries
-    fig, axs = plt.subplots(nrows=len(countries)//3 + (1 if len(countries)%3 > 0 else 0), 
-                           ncols=3, figsize=(18, 5*len(countries)//3))
-    
-    # Make axs indexable even if there's only one row
-    if len(countries) <= 3:
-        axs = [axs]
+    # Create one figure per category with 3 rows and 2 columns
+    fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(12, 15))
     
     # Split data by country
     for i, country in enumerate(countries):
@@ -385,8 +380,9 @@ for te_length_category in te_length_categories:
         # Create a new column with the size category
         country_df['TE_length_category'] = pd.cut(country_df['TE_length'], bins=bins, labels=labels, right=False)
        
-        row = i // 3
-        col = i % 3
+        # Calculate position for 2 columns, 3 rows layout
+        row = i // 2
+        col = i % 2
 
         # keep only rows with the current TE length category
         te_length_df = country_df[country_df['TE_length_category'] == te_length_category]
@@ -429,6 +425,9 @@ for te_length_category in te_length_categories:
 
     # Add a title for the whole figure
     fig.suptitle(f'Site Frequency Spectrum - {te_length_category} TEs', fontsize=16)
+    
+    # Adjust spacing between subplots for better visibility
+    plt.subplots_adjust(hspace=0.4, wspace=0.3)  # Increase horizontal and vertical spacing
     plt.tight_layout(rect=[0, 0, 1, 0.97])  # Make room for the suptitle
     
     # Save the plot for this specific category

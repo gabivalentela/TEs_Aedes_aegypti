@@ -175,11 +175,11 @@ def plot_TE_counts(df):
         color = color_mapping.get(country, "#7f7f7f")
         plt.barh(offset, percentages, height=width, label=country, color=color)
 
-    plt.yticks(positions, unique_tes, fontsize=20)
-    plt.xticks(fontsize=20)
-    plt.xlabel('Percentage', fontsize=20)
-    plt.title('Top TEs by Percentage per Country', fontsize=22)
-    plt.legend(title='Country', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=20)
+    plt.yticks(positions, unique_tes, fontsize=30)
+    plt.xticks(fontsize=30)
+    plt.xlabel('Percentage', fontsize=30)
+    #plt.title('Top TEs by Percentage per Country', fontsize=22)
+    #plt.legend(title='Country', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=30)
     plt.tight_layout()
     # Save the plot to a file
     plot_filename = f'top_TEs_by_percentage_reference.svg'
@@ -244,14 +244,14 @@ def plot_PCA_data(df):
                    color=color_mapping.get(country, "#666666"))
 
     # Labels and title
-    ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.2f}% Variance)", fontsize=20)
+    ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.2f}% Variance)", fontsize=30)
     # make font bigger for the x and y ticks
-    ax.tick_params(axis='both', which='major', labelsize=16)
-    ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.2f}% Variance)", fontsize=20)
-    ax.set_title("PCA of TE Insertions", fontsize=16)
+    ax.tick_params(axis='both', which='major', labelsize=30)
+    ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.2f}% Variance)", fontsize=30)
+    ax.set_title("PCA of TE Insertions", fontsize=30)
 
     # Put legend outside the figure on the right
-    fig.legend(title="Country", loc='center left', bbox_to_anchor=(1.01, 0.5), fontsize=16, title_fontsize=18)
+    #fig.legend(title="Country", loc='center left', bbox_to_anchor=(1.01, 0.5), fontsize=35, title_fontsize=10)
 
     # Adjust layout to make room for the legend
     plt.tight_layout(rect=[0, 0, 0.85, 1])

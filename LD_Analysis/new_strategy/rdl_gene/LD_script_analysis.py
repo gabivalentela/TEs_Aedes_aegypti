@@ -67,10 +67,10 @@ ld_table_ref.to_csv(f'Reference_ld_table_flycross_SNPs.csv')
 significant_rsquared_ref, list_significant_tes_ref = LD_analysis.retrieve_significant_rsquared(
     ld_table_ref, significant_threshold=0.2, output_filename='significant_r_squared_ref.csv'
 )
+
 LD_analysis.plot_ld_heatmap_r2(ld_table_ref, list_significant_tes_ref, output_file='ld_heatmap_r2_ref.svg')
 
 genotype_info_ref = LD_analysis.sign_rsquared_retrieve_genotype(genotype_data_ref, significant_rsquared_ref)
-
 # Save to file
 genotype_info_ref.to_csv(f'genotype_info_Reference.csv')
 

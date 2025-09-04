@@ -1,0 +1,390 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:210: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  genotype_df = genotype_df.replace({'0/0': 0, '1/1': 1})
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/reference/characterization_script_reference.py:144: DeprecationWarning: `groupby` is deprecated. It has been renamed to `group_by`.
+  df.groupby('TE_name')
+
+--- Data for USA ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'SRR6768001_USA', 'SRR6768002_USA', 'SRR6768003_USA', 'SRR6768004_USA',
+       'SRR6768005_USA', 'SRR6768006_USA', 'SRR6768007_USA', 'SRR6768008_USA',
+       'SRR6768009_USA', 'SRR6768010_USA', 'SRR6768011_USA', 'SRR6768012_USA',
+       'SRR6768013_USA', 'SRR6768014_USA', 'SRR6768015_USA', 'SRR6768016_USA',
+       'SRR6768017_USA', 'SRR6768018_USA', 'SRR6768019_USA', 'SRR6768020_USA',
+       'SRR6768021_USA', 'SRR6768022_USA', 'SRR6768023_USA', 'SRR6768024_USA',
+       'SRR6768025_USA', 'SRR6768026_USA', 'SRR6768027_USA', 'SRR6768028_USA'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ LINE        ┆ 3611  │
+│ RC_HELITRON ┆ 72    │
+│ SINE        ┆ 338   │
+│ LTR         ┆ 5495  │
+│ UNKNOWN     ┆ 10314 │
+│ DNA         ┆ 14713 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: USA
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 14713 ┆ 42.59329   │
+│ UNKNOWN     ┆ 10314 ┆ 29.858437  │
+│ LTR         ┆ 5495  ┆ 15.907709  │
+│ LINE        ┆ 3611  ┆ 10.453637  │
+│ SINE        ┆ 338   ┆ 0.978491   │
+│ RC_HELITRON ┆ 72    ┆ 0.208436   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): USA
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 3331  ┆ 41.456129  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 2354  ┆ 29.296826  │
+│ AaegL5_1   ┆ LTR         ┆ 1335  ┆ 16.61481   │
+│ AaegL5_1   ┆ LINE        ┆ 925   ┆ 11.512134  │
+│ AaegL5_1   ┆ SINE        ┆ 73    ┆ 0.908525   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 3554  ┆ 29.685934  │
+│ AaegL5_3   ┆ LTR         ┆ 1879  ┆ 15.694955  │
+│ AaegL5_3   ┆ LINE        ┆ 1297  ┆ 10.833612  │
+│ AaegL5_3   ┆ SINE        ┆ 118   ┆ 0.985633   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 22    ┆ 0.183762   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Gabon ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'SRR11006820_Gabon', 'SRR11006821_Gabon', 'SRR11006823_Gabon',
+       'SRR11006824_Gabon', 'SRR11006825_Gabon', 'SRR11006826_Gabon',
+       'SRR11006827_Gabon', 'SRR11006828_Gabon', 'SRR11006829_Gabon',
+       'SRR11006830_Gabon', 'SRR11006831_Gabon', 'SRR11006832_Gabon',
+       'SRR11006834_Gabon'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ LTR         ┆ 4626  │
+│ LINE        ┆ 3135  │
+│ DNA         ┆ 12218 │
+│ UNKNOWN     ┆ 8529  │
+│ RC_HELITRON ┆ 61    │
+│ SINE        ┆ 310   │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Gabon
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 12218 ┆ 42.307559  │
+│ UNKNOWN     ┆ 8529  ┆ 29.533571  │
+│ LTR         ┆ 4626  ┆ 16.01856   │
+│ LINE        ┆ 3135  ┆ 10.855639  │
+│ SINE        ┆ 310   ┆ 1.073444   │
+│ RC_HELITRON ┆ 61    ┆ 0.211226   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Gabon
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 2911  ┆ 41.191453  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 2060  ┆ 29.149568  │
+│ AaegL5_1   ┆ LTR         ┆ 1195  ┆ 16.90958   │
+│ AaegL5_1   ┆ LINE        ┆ 816   ┆ 11.546625  │
+│ AaegL5_1   ┆ SINE        ┆ 70    ┆ 0.990519   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 2893  ┆ 29.319955  │
+│ AaegL5_3   ┆ LTR         ┆ 1565  ┆ 15.860951  │
+│ AaegL5_3   ┆ LINE        ┆ 1121  ┆ 11.361103  │
+│ AaegL5_3   ┆ SINE        ┆ 101   ┆ 1.023614   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 20    ┆ 0.202696   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Kenya ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'SRR11006665_Kenya', 'SRR11006666_Kenya', 'SRR11006667_Kenya',
+       'SRR11006668_Kenya', 'SRR11006669_Kenya', 'SRR11006670_Kenya',
+       'SRR11006672_Kenya', 'SRR11006673_Kenya', 'SRR11006674_Kenya',
+       'SRR11006675_Kenya', 'SRR11006676_Kenya', 'SRR11006677_Kenya',
+       'SRR11006678_Kenya', 'SRR11006679_Kenya', 'SRR11006680_Kenya',
+       'SRR11006681_Kenya', 'SRR11006683_Kenya', 'SRR11006684_Kenya',
+       'SRR11006685_Kenya'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ DNA         ┆ 13797 │
+│ LTR         ┆ 5128  │
+│ SINE        ┆ 351   │
+│ UNKNOWN     ┆ 9746  │
+│ RC_HELITRON ┆ 74    │
+│ LINE        ┆ 3712  │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Kenya
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 13797 ┆ 42.053767  │
+│ UNKNOWN     ┆ 9746  ┆ 29.706169  │
+│ LTR         ┆ 5128  ┆ 15.630334  │
+│ LINE        ┆ 3712  ┆ 11.314314  │
+│ SINE        ┆ 351   ┆ 1.069861   │
+│ RC_HELITRON ┆ 74    ┆ 0.225555   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Kenya
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 3177  ┆ 40.64739   │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 2268  ┆ 29.0174    │
+│ AaegL5_1   ┆ LTR         ┆ 1275  ┆ 16.312692  │
+│ AaegL5_1   ┆ LINE        ┆ 1000  ┆ 12.794268  │
+│ AaegL5_1   ┆ SINE        ┆ 78    ┆ 0.997953   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 3364  ┆ 29.675371  │
+│ AaegL5_3   ┆ LTR         ┆ 1742  ┆ 15.366972  │
+│ AaegL5_3   ┆ LINE        ┆ 1330  ┆ 11.732534  │
+│ AaegL5_3   ┆ SINE        ┆ 115   ┆ 1.014467   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 26    ┆ 0.229358   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Brazil ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'SRR11006835_Brazil', 'SRR11006836_Brazil', 'SRR11006837_Brazil',
+       'SRR11006838_Brazil', 'SRR11006839_Brazil', 'SRR11006840_Brazil',
+       'SRR11006841_Brazil', 'SRR11006842_Brazil', 'SRR11006843_Brazil',
+       'SRR11006846_Brazil', 'SRR11006847_Brazil', 'SRR11006848_Brazil',
+       'SRR11006849_Brazil', 'SRR11006850_Brazil', 'SRR11006851_Brazil',
+       'SRR11006852_Brazil', 'SRR11006853_Brazil', 'SRR11006854_Brazil'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ UNKNOWN     ┆ 9072  │
+│ LTR         ┆ 4981  │
+│ RC_HELITRON ┆ 59    │
+│ DNA         ┆ 13151 │
+│ SINE        ┆ 316   │
+│ LINE        ┆ 3112  │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Brazil
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 13151 ┆ 42.849695  │
+│ UNKNOWN     ┆ 9072  ┆ 29.559154  │
+│ LTR         ┆ 4981  ┆ 16.229514  │
+│ LINE        ┆ 3112  ┆ 10.13978   │
+│ SINE        ┆ 316   ┆ 1.029618   │
+│ RC_HELITRON ┆ 59    ┆ 0.192239   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Brazil
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 2995  ┆ 41.806253  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 2083  ┆ 29.075935  │
+│ AaegL5_1   ┆ LTR         ┆ 1203  ┆ 16.792295  │
+│ AaegL5_1   ┆ LINE        ┆ 798   ┆ 11.139028  │
+│ AaegL5_1   ┆ SINE        ┆ 74    ┆ 1.032942   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 3154  ┆ 29.698682  │
+│ AaegL5_3   ┆ LTR         ┆ 1702  ┆ 16.026365  │
+│ AaegL5_3   ┆ LINE        ┆ 1101  ┆ 10.367232  │
+│ AaegL5_3   ┆ SINE        ┆ 105   ┆ 0.988701   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 23    ┆ 0.216573   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Senegal ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'SRR11006749_Senegal', 'SRR11006751_Senegal', 'SRR11006752_Senegal',
+       'SRR11006753_Senegal', 'SRR11006754_Senegal', 'SRR11006755_Senegal',
+       'SRR11006756_Senegal', 'SRR11006757_Senegal', 'SRR11006758_Senegal',
+       'SRR11006759_Senegal', 'SRR11006760_Senegal', 'SRR11006762_Senegal',
+       'SRR11006763_Senegal', 'SRR11006764_Senegal', 'SRR11006765_Senegal',
+       'SRR11006766_Senegal', 'SRR11006767_Senegal', 'SRR11006768_Senegal',
+       'SRR11006769_Senegal', 'SRR11006770_Senegal'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ UNKNOWN     ┆ 8515  │
+│ DNA         ┆ 12329 │
+│ LINE        ┆ 3040  │
+│ SINE        ┆ 311   │
+│ LTR         ┆ 4726  │
+│ RC_HELITRON ┆ 63    │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Senegal
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 12329 ┆ 42.537262  │
+│ UNKNOWN     ┆ 8515  ┆ 29.378278  │
+│ LTR         ┆ 4726  ┆ 16.305548  │
+│ LINE        ┆ 3040  ┆ 10.488545  │
+│ SINE        ┆ 311   ┆ 1.073006   │
+│ RC_HELITRON ┆ 63    ┆ 0.217361   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Senegal
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 2814  ┆ 41.224729  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 1979  ┆ 28.992089  │
+│ AaegL5_1   ┆ LTR         ┆ 1171  ┆ 17.154996  │
+│ AaegL5_1   ┆ LINE        ┆ 778   ┆ 11.397597  │
+│ AaegL5_1   ┆ SINE        ┆ 70    ┆ 1.025491   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 2933  ┆ 29.400561  │
+│ AaegL5_3   ┆ LTR         ┆ 1614  ┆ 16.178829  │
+│ AaegL5_3   ┆ LINE        ┆ 1082  ┆ 10.84603   │
+│ AaegL5_3   ┆ SINE        ┆ 102   ┆ 1.022454   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 21    ┆ 0.210505   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Colombia ---
+Index(['chromosome', 'position_start', 'position_end', 'TE_name', 'strand',
+       'FEMALE_1-F1_CGCATGAT-TCAGGCTT_S1_Colombia',
+       'FEMALE_10-F10_GTGCCATA-ACTAGGAG_S2_Colombia',
+       'FEMALE_11-F11_CGTTGCAA-CGCTCTAT_S3_Colombia',
+       'FEMALE_12-F12_TGAAGACG-TGGCATGT_S4_Colombia',
+       'FEMALE_14-F14_ACGTTCAG-GCACAACT_S6_Colombia',
+       'FEMALE_15-F15_ATGCACGA-GACGATCT_S7_Colombia',
+       'FEMALE_17-F17_CGGCTAAT-AGAACGAG_S9_Colombia',
+       'FEMALE_18-F18_GAATCCGA-CACTAGCT_S10_Colombia',
+       'FEMALE_2-F2_CTTAGGAC-GTAGGAGT_S12_Colombia',
+       'FEMALE_20-F20_GTTACGCA-ATCGCCAT_S13_Colombia',
+       'FEMALE_21-F21_ATGACGTC-GAAGGAAG_S14_Colombia',
+       'FEMALE_22-F22_CAGTCCAA-GATTACCG_S15_Colombia',
+       'FEMALE_3-F3_ATCCGGTA-TATCGGTC_S16_Colombia',
+       'FEMALE_5-F5_CATACCAC-CGGTTGTT_S18_Colombia',
+       'FEMALE_6-F6_AACGTCTG-GCGTCATT_S19_Colombia',
+       'FEMALE_7-F7_CCTGATTG-AACTGAGC_S20_Colombia',
+       'FEMALE_8-F8_CCTTGTAG-TTCCAAGG_S21_Colombia',
+       'FEMALE_9-F9_ACGGAACA-GTTCTCGT_S22_Colombia',
+       'MALE_1-M1_CGACGTTA-ATCCAGAG_S23_Colombia',
+       'MALE_2-M2_TAACCGGT-GAGACGAT_S24_Colombia',
+       'MALE_3-M3_ATCGATCG-TGCTTCCA_S25_Colombia',
+       'MALE_4-M4_TCGCTGTT-ACGACTTG_S26_Colombia',
+       'MALE_5-M5_CATGGCTA-GATGTGTG_S27_Colombia',
+       'MALE_6-M6_AGCGTGTT-TTGCGAAG_S28_Colombia'],
+      dtype='object')
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ SINE        ┆ 358   │
+│ UNKNOWN     ┆ 10462 │
+│ LINE        ┆ 3727  │
+│ LTR         ┆ 5557  │
+│ RC_HELITRON ┆ 79    │
+│ DNA         ┆ 14859 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Colombia
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 14859 ┆ 42.403402  │
+│ UNKNOWN     ┆ 10462 ┆ 29.855602  │
+│ LTR         ┆ 5557  ┆ 15.858113  │
+│ LINE        ┆ 3727  ┆ 10.635808  │
+│ SINE        ┆ 358   ┆ 1.021631   │
+│ RC_HELITRON ┆ 79    ┆ 0.225444   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Colombia
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 3330  ┆ 41.030064  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 2394  ┆ 29.497289  │
+│ AaegL5_1   ┆ LTR         ┆ 1343  ┆ 16.54756   │
+│ AaegL5_1   ┆ LINE        ┆ 948   ┆ 11.680631  │
+│ AaegL5_1   ┆ SINE        ┆ 82    ┆ 1.01035    │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 3645  ┆ 29.881948  │
+│ AaegL5_3   ┆ LTR         ┆ 1908  ┆ 15.641909  │
+│ AaegL5_3   ┆ LINE        ┆ 1354  ┆ 11.10018   │
+│ AaegL5_3   ┆ SINE        ┆ 128   ┆ 1.049352   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 25    ┆ 0.204952   │
+└────────────┴─────────────┴───────┴────────────┘
+shape: (36, 4)
+┌─────────────┬───────┬────────────┬──────────┐
+│ TE_name     ┆ count ┆ percentage ┆ country  │
+│ ---         ┆ ---   ┆ ---        ┆ ---      │
+│ str         ┆ u32   ┆ f64        ┆ str      │
+╞═════════════╪═══════╪════════════╪══════════╡
+│ DNA         ┆ 14713 ┆ 42.59329   ┆ USA      │
+│ UNKNOWN     ┆ 10314 ┆ 29.858437  ┆ USA      │
+│ LTR         ┆ 5495  ┆ 15.907709  ┆ USA      │
+│ LINE        ┆ 3611  ┆ 10.453637  ┆ USA      │
+│ SINE        ┆ 338   ┆ 0.978491   ┆ USA      │
+│ …           ┆ …     ┆ …          ┆ …        │
+│ UNKNOWN     ┆ 10462 ┆ 29.855602  ┆ Colombia │
+│ LTR         ┆ 5557  ┆ 15.858113  ┆ Colombia │
+│ LINE        ┆ 3727  ┆ 10.635808  ┆ Colombia │
+│ SINE        ┆ 358   ┆ 1.021631   ┆ Colombia │
+│ RC_HELITRON ┆ 79    ┆ 0.225444   ┆ Colombia │
+└─────────────┴───────┴────────────┴──────────┘

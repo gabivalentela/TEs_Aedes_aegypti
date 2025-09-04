@@ -449,14 +449,18 @@ class LD_analysis:
     @staticmethod 
     def sign_rsquared_retrieve_genotype(genotype_dict, significant_rsquared):
         info_genotypes = {}
+        
         for key, value in genotype_dict.items():
-            for item in key:
-                if item=='AaegL5_3_316080722_V410L':
+            # key is a tuple of TEs, value contains combination_1 and combination_2
+            te_list = list(key)  # Convert tuple to list for indexing
+            
+            for i, item in enumerate(te_list):
+                # Use combination based on position in the tuple
+                if i == 0:  # First TE in tuple gets combination_1
                     genotype = value['combination_1']
-                    info_genotypes[item] = genotype
-                else:
+                else:  # Second TE in tuple gets combination_2
                     genotype = value['combination_2']
-                    info_genotypes[item] = genotype
+                info_genotypes[item] = genotype
         
         df = pd.DataFrame(list(info_genotypes.items()), columns=['TE', 'Genotypes'])
         return df

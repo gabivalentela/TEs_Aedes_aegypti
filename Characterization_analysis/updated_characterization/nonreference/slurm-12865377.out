@@ -1,0 +1,318 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:211: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  genotype_df = genotype_df.replace({'0/0': 0, '1/1': 1})
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:110: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  color_map = cm.get_cmap('turbo', len(stacked_data))
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Characterization_analysis/updated_characterization/nonreference/characterization_script_nonreference.py:145: DeprecationWarning: `groupby` is deprecated. It has been renamed to `group_by`.
+  df.groupby('TE_name')
+        Unnamed: 0 chromosome  position_start  ...  SRR6768026 SRR6768027 SRR6768028
+0                3   AaegL5_1           22031  ...         0/0        0/0        0/0
+1                4   AaegL5_1           22098  ...         0/0        0/0        0/0
+2               11   AaegL5_1           35106  ...         0/0        0/0        0/0
+3               14   AaegL5_1           35491  ...         0/0        0/0        0/0
+4               20   AaegL5_1           37755  ...         0/0        0/0        0/0
+...            ...        ...             ...  ...         ...        ...        ...
+308654     1326824   AaegL5_3       409743081  ...         0/0        0/0        1/1
+308655     1326825   AaegL5_3       409743082  ...         0/0        0/0        0/0
+308656     1326834   AaegL5_3       409769842  ...         0/0        0/0        0/0
+308657     1326841   AaegL5_3       409773258  ...         0/0        0/0        0/0
+308658     1326846   AaegL5_3       409774861  ...         0/0        0/0        0/0
+
+[308659 rows x 128 columns]
+
+--- Data for Gabon ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ SINE        ┆ 6885  │
+│ DNA         ┆ 64876 │
+│ LTR         ┆ 15562 │
+│ LINE        ┆ 15415 │
+│ UNKNOWN     ┆ 42725 │
+│ RC_HELITRON ┆ 273   │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Gabon
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 64876 ┆ 44.516111  │
+│ UNKNOWN     ┆ 42725 ┆ 29.31671   │
+│ LTR         ┆ 15562 ┆ 10.678213  │
+│ LINE        ┆ 15415 ┆ 10.577345  │
+│ SINE        ┆ 6885  ┆ 4.724296   │
+│ RC_HELITRON ┆ 273   ┆ 0.187325   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Gabon
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 14964 ┆ 42.851007  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 10633 ┆ 30.448727  │
+│ AaegL5_1   ┆ LTR         ┆ 3957  ┆ 11.331291  │
+│ AaegL5_1   ┆ LINE        ┆ 3767  ┆ 10.787205  │
+│ AaegL5_1   ┆ SINE        ┆ 1513  ┆ 4.332637   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 10556 ┆ 28.869137  │
+│ AaegL5_3   ┆ LINE        ┆ 4016  ┆ 10.983181  │
+│ AaegL5_3   ┆ LTR         ┆ 3896  ┆ 10.654998  │
+│ AaegL5_3   ┆ SINE        ┆ 1661  ┆ 4.542595   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 70    ┆ 0.19144    │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Colombia ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ SINE        ┆ 6550  │
+│ DNA         ┆ 48392 │
+│ RC_HELITRON ┆ 396   │
+│ LINE        ┆ 15471 │
+│ UNKNOWN     ┆ 33517 │
+│ LTR         ┆ 12109 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Colombia
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 48392 ┆ 41.561386  │
+│ UNKNOWN     ┆ 33517 ┆ 28.786018  │
+│ LINE        ┆ 15471 ┆ 13.287242  │
+│ LTR         ┆ 12109 ┆ 10.399794  │
+│ SINE        ┆ 6550  ┆ 5.625456   │
+│ RC_HELITRON ┆ 396   ┆ 0.340104   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Colombia
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 14793 ┆ 39.183641  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 11120 ┆ 29.454613  │
+│ AaegL5_1   ┆ LINE        ┆ 5431  ┆ 14.385612  │
+│ AaegL5_1   ┆ LTR         ┆ 4203  ┆ 11.13289   │
+│ AaegL5_1   ┆ SINE        ┆ 2045  ┆ 5.416788   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 11163 ┆ 29.100626  │
+│ AaegL5_3   ┆ LINE        ┆ 4753  ┆ 12.390511  │
+│ AaegL5_3   ┆ LTR         ┆ 4003  ┆ 10.435349  │
+│ AaegL5_3   ┆ SINE        ┆ 2043  ┆ 5.32586    │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 158   ┆ 0.411887   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Brazil ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ DNA         ┆ 47192 │
+│ SINE        ┆ 5214  │
+│ LTR         ┆ 11432 │
+│ LINE        ┆ 12137 │
+│ RC_HELITRON ┆ 398   │
+│ UNKNOWN     ┆ 31673 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Brazil
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 47192 ┆ 43.677693  │
+│ UNKNOWN     ┆ 31673 ┆ 29.314366  │
+│ LINE        ┆ 12137 ┆ 11.233178  │
+│ LTR         ┆ 11432 ┆ 10.580679  │
+│ SINE        ┆ 5214  ┆ 4.825722   │
+│ RC_HELITRON ┆ 398   ┆ 0.368362   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Brazil
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 10357 ┆ 41.997486  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 7523  ┆ 30.505657  │
+│ AaegL5_1   ┆ LINE        ┆ 2829  ┆ 11.471554  │
+│ AaegL5_1   ┆ LTR         ┆ 2752  ┆ 11.15932   │
+│ AaegL5_1   ┆ SINE        ┆ 1093  ┆ 4.432099   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 11532 ┆ 29.403366  │
+│ AaegL5_3   ┆ LINE        ┆ 4387  ┆ 11.18562   │
+│ AaegL5_3   ┆ LTR         ┆ 4135  ┆ 10.54309   │
+│ AaegL5_3   ┆ SINE        ┆ 1838  ┆ 4.686384   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 162   ┆ 0.413055   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Kenya ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ LINE        ┆ 13173 │
+│ UNKNOWN     ┆ 33614 │
+│ RC_HELITRON ┆ 265   │
+│ LTR         ┆ 12192 │
+│ DNA         ┆ 50729 │
+│ SINE        ┆ 5682  │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Kenya
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 50729 ┆ 43.862349  │
+│ UNKNOWN     ┆ 33614 ┆ 29.064027  │
+│ LINE        ┆ 13173 ┆ 11.38991   │
+│ LTR         ┆ 12192 ┆ 10.541697  │
+│ SINE        ┆ 5682  ┆ 4.912887   │
+│ RC_HELITRON ┆ 265   ┆ 0.22913    │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Kenya
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 13812 ┆ 41.965181  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 9909  ┆ 30.106645  │
+│ AaegL5_1   ┆ LINE        ┆ 3904  ┆ 11.861574  │
+│ AaegL5_1   ┆ LTR         ┆ 3649  ┆ 11.086805  │
+│ AaegL5_1   ┆ SINE        ┆ 1537  ┆ 4.669887   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 11609 ┆ 28.624618  │
+│ AaegL5_3   ┆ LINE        ┆ 4916  ┆ 12.121511  │
+│ AaegL5_3   ┆ LTR         ┆ 4230  ┆ 10.430023  │
+│ AaegL5_3   ┆ SINE        ┆ 1982  ┆ 4.88707    │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 104   ┆ 0.256436   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for Senegal ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ LINE        ┆ 19152 │
+│ UNKNOWN     ┆ 49822 │
+│ DNA         ┆ 73916 │
+│ RC_HELITRON ┆ 465   │
+│ SINE        ┆ 8045  │
+│ LTR         ┆ 18000 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: Senegal
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 73916 ┆ 43.634002  │
+│ UNKNOWN     ┆ 49822 ┆ 29.410862  │
+│ LINE        ┆ 19152 ┆ 11.305785  │
+│ LTR         ┆ 18000 ┆ 10.625738  │
+│ SINE        ┆ 8045  ┆ 4.749115   │
+│ RC_HELITRON ┆ 465   ┆ 0.274498   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Senegal
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 14548 ┆ 41.870773  │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 10688 ┆ 30.761261  │
+│ AaegL5_1   ┆ LTR         ┆ 3963  ┆ 11.405958  │
+│ AaegL5_1   ┆ LINE        ┆ 3935  ┆ 11.325371  │
+│ AaegL5_1   ┆ SINE        ┆ 1492  ┆ 4.294143   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 16883 ┆ 29.19419   │
+│ AaegL5_3   ┆ LINE        ┆ 6690  ┆ 11.56839   │
+│ AaegL5_3   ┆ LTR         ┆ 6095  ┆ 10.539512  │
+│ AaegL5_3   ┆ SINE        ┆ 2694  ┆ 4.658482   │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 167   ┆ 0.288777   │
+└────────────┴─────────────┴───────┴────────────┘
+
+--- Data for USA ---
+this is the grouped df: shape: (6, 2)
+┌─────────────┬───────┐
+│ TE_name     ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u32   │
+╞═════════════╪═══════╡
+│ SINE        ┆ 7107  │
+│ LINE        ┆ 17030 │
+│ DNA         ┆ 65313 │
+│ UNKNOWN     ┆ 43958 │
+│ RC_HELITRON ┆ 564   │
+│ LTR         ┆ 16259 │
+└─────────────┴───────┘
+In this country, these are the top 10 TEs by percentage: USA
+shape: (6, 3)
+┌─────────────┬───────┬────────────┐
+│ TE_name     ┆ count ┆ percentage │
+│ ---         ┆ ---   ┆ ---        │
+│ str         ┆ u32   ┆ f64        │
+╞═════════════╪═══════╪════════════╡
+│ DNA         ┆ 65313 ┆ 43.475048  │
+│ UNKNOWN     ┆ 43958 ┆ 29.260273  │
+│ LINE        ┆ 17030 ┆ 11.335876  │
+│ LTR         ┆ 16259 ┆ 10.822666  │
+│ SINE        ┆ 7107  ┆ 4.730715   │
+│ RC_HELITRON ┆ 564   ┆ 0.375422   │
+└─────────────┴───────┴────────────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): USA
+shape: (18, 4)
+┌────────────┬─────────────┬───────┬────────────┐
+│ chromosome ┆ TE_name     ┆ count ┆ percentage │
+│ ---        ┆ ---         ┆ ---   ┆ ---        │
+│ str        ┆ str         ┆ u32   ┆ f64        │
+╞════════════╪═════════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ DNA         ┆ 5088  ┆ 42.65236   │
+│ AaegL5_1   ┆ UNKNOWN     ┆ 3608  ┆ 30.24562   │
+│ AaegL5_1   ┆ LTR         ┆ 1364  ┆ 11.43432   │
+│ AaegL5_1   ┆ LINE        ┆ 1320  ┆ 11.065471  │
+│ AaegL5_1   ┆ SINE        ┆ 514   ┆ 4.308827   │
+│ …          ┆ …           ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN     ┆ 21373 ┆ 29.482847  │
+│ AaegL5_3   ┆ LINE        ┆ 8397  ┆ 11.583187  │
+│ AaegL5_3   ┆ LTR         ┆ 7874  ┆ 10.861738  │
+│ AaegL5_3   ┆ SINE        ┆ 3324  ┆ 4.58527    │
+│ AaegL5_3   ┆ RC_HELITRON ┆ 367   ┆ 0.506256   │
+└────────────┴─────────────┴───────┴────────────┘

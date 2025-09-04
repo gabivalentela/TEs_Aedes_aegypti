@@ -25,8 +25,8 @@ def exon_list_retrieve(annotation_vector_base, gene_code):
     return exon_list
 
 #annotation_vector_base = '../../../../../Annotation_VectorBase/VectorBase-54_AaegyptiLVP_AGWG.gff'
-annotation_vector_base = '../../../../../../final_scripts/Annotation_VectorBase/VectorBase-54_AaegyptiLVP_AGWG.gff'
-
+#annotation_vector_base = '../../../../../../final_scripts/Annotation_VectorBase/VectorBase-54_AaegyptiLVP_AGWG.gff'
+annotation_vector_base = '../../../../../Annotation_VectorBase/VectorBase-54_AaegyptiLVP_AGWG.gff'
 # Gene and TE information
 gene_sizes = {}
 gene_sizes['CYP6P12'] = {'code_gene':'AAEL014891', 'start':271403322, 'end':271406949, 'te_name': 'rnd_1_family_337_DNA_Sola', 'te_start': 271402372, 'te_end': 271402953}
@@ -111,20 +111,25 @@ for gene_name, gene_info in gene_sizes.items():
     ax.text(gene_info['start'], y_pos + 0.35, f"Gene: {gene_name}", 
             fontsize=14, fontweight='bold', ha='left')
     
-    # Add TE name label
-    ax.text(gene_info['te_start'], y_pos - 0.45, f"TE: {gene_info['te_name']}", 
-            fontsize=12, ha='left', style='italic')
+    ax.text(
+        gene_info['te_end'],       # anchor at TE end
+        y_pos - 0.45, 
+        f"TE: {gene_info['te_name']}", 
+        fontsize=12, 
+        ha='right',   # text ends at this x-coordinate
+        style='italic'
+    )
     
     # Add coordinates as text
-    gene_coords = f"Gene coordinates: {gene_info['start']:,} - {gene_info['end']:,} ({gene_info['end'] - gene_info['start']:,} bp)"
-    te_coords = f"TE coordinates: {gene_info['te_start']:,} - {gene_info['te_end']:,} ({gene_info['te_end'] - gene_info['te_start']:,} bp)"
+    #gene_coords = f"Gene coordinates: {gene_info['start']:,} - {gene_info['end']:,} ({gene_info['end'] - gene_info['start']:,} bp)"
+    #te_coords = f"TE coordinates: {gene_info['te_start']:,} - {gene_info['te_end']:,} ({gene_info['te_end'] - gene_info['te_start']:,} bp)"
     
     # Position coordinate text at the bottom
-    ax.text(plot_start + (plot_end - plot_start) * 0.02, y_pos - 0.65, gene_coords, 
-            fontsize=10, ha='left')
-    ax.text(plot_start + (plot_end - plot_start) * 0.02, y_pos - 0.75, te_coords, 
-            fontsize=10, ha='left')
-    
+    #ax.text(plot_start + (plot_end - plot_start) * 0.02, y_pos - 0.65, gene_coords, 
+    #        fontsize=10, ha='left')
+    #ax.text(plot_start + (plot_end - plot_start) * 0.02, y_pos - 0.75, te_coords, 
+    #       fontsize=10, ha='left')
+
     # Set plot properties
     ax.set_ylim(-0.9, 1.0)
     ax.set_xlim(plot_start, plot_end)

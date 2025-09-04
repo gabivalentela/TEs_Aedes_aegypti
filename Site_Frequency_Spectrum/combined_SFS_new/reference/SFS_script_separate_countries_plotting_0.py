@@ -260,7 +260,7 @@ def plot_binned_sfs(combined_df, suf):
     ax.set_xticklabels([f"{i/10:.1f}-{(i+1)/10:.1f}" for i in range(10)])
     ax.tick_params(axis='x', labelsize=15)
     ax.tick_params(axis='y', labelsize=15)
-    ax.set_xlabel('Proportion of genomes with insertion (binned)', fontsize=15)
+    ax.set_xlabel('Proportion of genomes with insertion', fontsize=15)
     ax.set_ylabel('Proportion', fontsize=15)
     ax.set_title(f"Binned Site Frequency Spectrum - {suf}")
     ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
