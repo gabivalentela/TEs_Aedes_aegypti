@@ -1,0 +1,11 @@
+SINE
+
+--- Data for  ---
+total number of TEs in : 0
+number of matched rows: 0
+number of non matched rows: 0
+Traceback (most recent call last):
+  File "/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Overlapping_analysis/updated_analysis/separate_TE_families/nonref/genes_overlapping_nonref.py", line 141, in <module>
+    percentage_overlapping[country] = {'number_te_overlapping': TE_overlapping, 'total_number_TEs': total_number_TEs, 'percentage': TE_overlapping/total_number_TEs}
+                                                                                                                                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero

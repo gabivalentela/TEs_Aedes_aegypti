@@ -1,0 +1,192 @@
+Unknown
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 10462
+number of matched rows: 78
+number of non matched rows: 10384
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 9746
+number of matched rows: 62
+number of non matched rows: 9684
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 9072
+number of matched rows: 61
+number of non matched rows: 9011
+
+--- Data for USA ---
+total number of TEs in USA: 10314
+number of matched rows: 75
+number of non matched rows: 10239
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 8529
+number of matched rows: 56
+number of non matched rows: 8473
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 8515
+number of matched rows: 51
+number of non matched rows: 8464
+[0.7455553431466259, 0.6361584239688077, 0.6723985890652557, 0.7271669575334496, 0.6565834212686129, 0.5989430416911333]
+DNA
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 14859
+number of matched rows: 49
+number of non matched rows: 14810
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 13797
+number of matched rows: 40
+number of non matched rows: 13757
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 13151
+number of matched rows: 44
+number of non matched rows: 13107
+
+--- Data for USA ---
+total number of TEs in USA: 14713
+number of matched rows: 50
+number of non matched rows: 14663
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 12218
+number of matched rows: 35
+number of non matched rows: 12183
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 12329
+number of matched rows: 36
+number of non matched rows: 12293
+[0.329766471498755, 0.2899180981372762, 0.3345753174663524, 0.3398355196085095, 0.28646259616958586, 0.2919944845486252]
+RC
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 79
+number of matched rows: 0
+number of non matched rows: 79
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 74
+number of matched rows: 0
+number of non matched rows: 74
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 59
+number of matched rows: 0
+number of non matched rows: 59
+
+--- Data for USA ---
+total number of TEs in USA: 72
+number of matched rows: 0
+number of non matched rows: 72
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 61
+number of matched rows: 0
+number of non matched rows: 61
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 63
+number of matched rows: 0
+number of non matched rows: 63
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+SINE
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 358
+number of matched rows: 1
+number of non matched rows: 357
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 351
+number of matched rows: 1
+number of non matched rows: 350
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 316
+number of matched rows: 1
+number of non matched rows: 315
+
+--- Data for USA ---
+total number of TEs in USA: 338
+number of matched rows: 2
+number of non matched rows: 336
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 310
+number of matched rows: 2
+number of non matched rows: 308
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 311
+number of matched rows: 1
+number of non matched rows: 310
+[0.27932960893854747, 0.2849002849002849, 0.31645569620253167, 0.591715976331361, 0.6451612903225806, 0.3215434083601286]
+LINE
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 3727
+number of matched rows: 9
+number of non matched rows: 3718
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 3712
+number of matched rows: 7
+number of non matched rows: 3705
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 3112
+number of matched rows: 6
+number of non matched rows: 3106
+
+--- Data for USA ---
+total number of TEs in USA: 3611
+number of matched rows: 9
+number of non matched rows: 3602
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 3135
+number of matched rows: 8
+number of non matched rows: 3127
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 3040
+number of matched rows: 6
+number of non matched rows: 3034
+[0.24148108398175475, 0.18857758620689655, 0.1928020565552699, 0.24923843810578786, 0.2551834130781499, 0.19736842105263158]
+LTR
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 5557
+number of matched rows: 16
+number of non matched rows: 5541
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 5128
+number of matched rows: 13
+number of non matched rows: 5115
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 4981
+number of matched rows: 15
+number of non matched rows: 4966
+
+--- Data for USA ---
+total number of TEs in USA: 5495
+number of matched rows: 16
+number of non matched rows: 5479
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 4626
+number of matched rows: 11
+number of non matched rows: 4615
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 4726
+number of matched rows: 13
+number of non matched rows: 4713
+[0.28792513946373943, 0.25351014040561626, 0.3011443485243927, 0.29117379435850776, 0.23778642455685256, 0.27507405840033855]

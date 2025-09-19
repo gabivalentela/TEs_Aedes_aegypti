@@ -1,0 +1,7 @@
+WARNING: fastp uses up to 16 threads although you specified 24
+
+WARNNIG: different read numbers of the 0 pack
+Read1 pack size: 1000
+Read2 pack size: 0
+
+ERROR: input files don't contain identical amount of reads

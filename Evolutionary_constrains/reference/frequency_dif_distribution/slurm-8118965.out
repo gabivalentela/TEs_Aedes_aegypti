@@ -1,0 +1,134 @@
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:270: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  plt.figure(figsize=(8, 6))
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:261: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_SNPs_frequency["frequency_diff"] = abs(df_SNPs_frequency[f"frequency_SNP_{country1}"] - df_SNPs_frequency[f"frequency_SNP_{country2}"])
+/nas/longleaf/home/gabivla/lab/SV_mosquitos/Transposable_Elements_Aedes_aegypti/Evolutionary_constrains/reference/frequency_dif_distribution/plot_frequency_difference.py:324: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+--- Data for Gabon ---
+
+--- Data for Senegal ---
+
+--- Data for Kenya ---
+
+--- Data for USA ---
+
+--- Data for Colombia ---
+
+--- Data for Brazil ---

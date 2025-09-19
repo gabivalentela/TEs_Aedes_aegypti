@@ -1,0 +1,5 @@
+/nas/longleaf/home/gabivla/miniconda3/lib/python3.12/site-packages/pandas/plotting/_matplotlib/core.py:580: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = self.plt.figure(figsize=self.figsize)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Overlapping_analysis/updated_analysis/separate_TE_families/more_specific_families/ref/genes_overlapping_TEs.py:157: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  plt.figure(figsize=(10, 8))
+X connection to 172.26.113.34:19.0 broken (explicit kill or server shutdown).

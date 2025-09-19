@@ -1,0 +1,3 @@
+WARNING: fastp uses up to 16 threads although you specified 24
+Expected '+', got 
+ERROR: '+' expected

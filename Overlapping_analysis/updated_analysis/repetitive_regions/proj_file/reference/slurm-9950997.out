@@ -1,0 +1,20 @@
+shape: (1_621_486, 3)
+┌──────────┬───────────┬───────────┐
+│ chrom    ┆ start     ┆ end       │
+│ ---      ┆ ---       ┆ ---       │
+│ str      ┆ i64       ┆ i64       │
+╞══════════╪═══════════╪═══════════╡
+│ AaegL5_1 ┆ 0         ┆ 273       │
+│ AaegL5_1 ┆ 297       ┆ 373       │
+│ AaegL5_1 ┆ 413       ┆ 7449      │
+│ AaegL5_1 ┆ 7452      ┆ 8789      │
+│ AaegL5_1 ┆ 9854      ┆ 18833     │
+│ …        ┆ …         ┆ …         │
+│ AaegL5_3 ┆ 409775040 ┆ 409775114 │
+│ AaegL5_3 ┆ 409775351 ┆ 409776017 │
+│ AaegL5_3 ┆ 409776038 ┆ 409776459 │
+│ AaegL5_3 ┆ 409776494 ┆ 409776661 │
+│ AaegL5_3 ┆ 409776731 ┆ 409776852 │
+└──────────┴───────────┴───────────┘
+Checking for overlap with exons in USA
+Overlaps saved to /work/users/g/a/gabivla/lab/SV_mosquitos/overlap_analysis_repetitive_regions/USA_overlaps_repetitive_ref.csv

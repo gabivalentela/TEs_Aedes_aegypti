@@ -1,0 +1,452 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/Site_Frequency_Spectrum/combined_SFS_new/nonreference/SFS_script_separate_countries.py:126: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sel_df[name] = sel_df[name] / total_count
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.184910
+1           2  0.086445
+2           3  0.042082
+3           4  0.023029
+4           5  0.013666
+5           6  0.008576
+6           7  0.005372
+7           8  0.003431
+8           9  0.002339
+9          10  0.001724
+10         11  0.001095
+11         12  0.000765
+12         13  0.000505
+13         14  0.000298
+14         15  0.000227
+15         16  0.000117
+16         17  0.000087
+17         18  0.000016
+18         19  0.000019
+Country to match: Kenya
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: Kenya
+    variable   value
+0          1  793559
+1          2  315627
+2          3  148301
+3          4   91001
+4          5   58252
+5          6   41620
+6          7   31990
+7          8   25050
+8          9   20337
+9         10   17479
+10        11   15592
+11        12   13788
+12        13   13291
+13        14   13935
+14        15   14874
+15        16   15738
+16        17   18948
+17        18   22510
+18        19   39382
+         TEs   neutral
+0   0.184910  0.463724
+1   0.086445  0.184440
+2   0.042082  0.086661
+3   0.023029  0.053177
+4   0.013666  0.034040
+5   0.008576  0.024321
+6   0.005372  0.018694
+7   0.003431  0.014638
+8   0.002339  0.011884
+9   0.001724  0.010214
+10  0.001095  0.009111
+11  0.000765  0.008057
+12  0.000505  0.007767
+13  0.000298  0.008143
+14  0.000227  0.008692
+15  0.000117  0.009197
+16  0.000087  0.011072
+17  0.000016  0.013154
+18  0.000019  0.023013
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.236134
+1           2  0.137074
+2           3  0.069267
+3           4  0.039701
+4           5  0.023855
+5           6  0.014913
+6           7  0.009321
+7           8  0.006246
+8           9  0.004209
+9          10  0.002734
+10         11  0.001843
+11         12  0.001241
+12         13  0.000897
+13         14  0.000548
+14         15  0.000337
+15         16  0.000230
+16         17  0.000168
+17         18  0.000062
+18         19  0.000039
+19         20  0.000006
+Country to match: Senegal
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: Senegal
+    variable   value
+0          1  450160
+1          2  198241
+2          3  115798
+3          4   77521
+4          5   55937
+5          6   42793
+6          7   35224
+7          8   30032
+8          9   25167
+9         10   22268
+10        11   19775
+11        12   17680
+12        13   16096
+13        14   15592
+14        15   14678
+15        16   14572
+16        17   14698
+17        18   15831
+18        19   17469
+19        20   27720
+         TEs   neutral
+0   0.236134  0.366803
+1   0.137074  0.161532
+2   0.069267  0.094356
+3   0.039701  0.063166
+4   0.023855  0.045579
+5   0.014913  0.034869
+6   0.009321  0.028702
+7   0.006246  0.024471
+8   0.004209  0.020507
+9   0.002734  0.018145
+10  0.001843  0.016113
+11  0.001241  0.014406
+12  0.000897  0.013115
+13  0.000548  0.012705
+14  0.000337  0.011960
+15  0.000230  0.011874
+16  0.000168  0.011976
+17  0.000062  0.012900
+18  0.000039  0.014234
+19  0.000006  0.022587
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.106234
+1           2  0.075954
+2           3  0.048925
+3           4  0.034271
+4           5  0.025990
+5           6  0.019986
+6           7  0.014984
+7           8  0.011867
+8           9  0.008984
+9          10  0.007549
+10         11  0.005608
+11         12  0.004555
+12         13  0.003376
+13         14  0.002462
+14         15  0.001983
+15         16  0.001613
+16         17  0.001014
+17         18  0.000739
+18         19  0.000570
+19         20  0.000321
+20         21  0.000159
+21         22  0.000065
+22         23  0.000019
+Country to match: Colombia
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: Colombia
+    variable  value
+0          1  71822
+1          2  36526
+2          3  31244
+3          4  24215
+4          5  19959
+5          6  19032
+6          7  17187
+7          8  15727
+8          9  15781
+9         10  15839
+10        11  14539
+11        12  13601
+12        13  12879
+13        14  12803
+14        15  13573
+15        16  13242
+16        17  12983
+17        18  12820
+18        19  13191
+19        20  12874
+20        21  13169
+21        22  14021
+22        23  17867
+23        24  30510
+         TEs   neutral
+0   0.106234  0.151076
+1   0.075954  0.076831
+2   0.048925  0.065721
+3   0.034271  0.050936
+4   0.025990  0.041983
+5   0.019986  0.040033
+6   0.014984  0.036152
+7   0.011867  0.033081
+8   0.008984  0.033195
+9   0.007549  0.033317
+10  0.005608  0.030582
+11  0.004555  0.028609
+12  0.003376  0.027091
+13  0.002462  0.026931
+14  0.001983  0.028550
+15  0.001613  0.027854
+16  0.001014  0.027309
+17  0.000739  0.026967
+18  0.000570  0.027747
+19  0.000321  0.027080
+20  0.000159  0.027701
+21  0.000065  0.029493
+22  0.000019  0.037583
+23       NaN  0.064177
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.221879
+1           2  0.121597
+2           3  0.056052
+3           4  0.031170
+4           5  0.018289
+5           6  0.011667
+6           7  0.007649
+7           8  0.005291
+8           9  0.003778
+9          10  0.002676
+10         11  0.001970
+11         12  0.001367
+12         13  0.001017
+13         14  0.000671
+14         15  0.000515
+15         16  0.000353
+16         17  0.000249
+17         18  0.000198
+18         19  0.000120
+19         20  0.000091
+20         21  0.000029
+21         22  0.000055
+22         23  0.000016
+23         24  0.000019
+24         25  0.000003
+Country to match: USA
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: USA
+    variable   value
+0          1  177482
+1          2  116994
+2          3   72186
+3          4   55344
+4          5   44757
+5          6   39630
+6          7   31381
+7          8   26274
+8          9   22510
+9         10   20922
+10        11   18380
+11        12   16479
+12        13   15084
+13        14   14037
+14        15   12902
+15        16   12760
+16        17   12049
+17        18   11559
+18        19   11019
+19        20   10471
+20        21   10089
+21        22    9896
+22        23   10130
+23        24    9748
+24        25   10501
+25        26   10894
+26        27   11623
+         TEs   neutral
+0   0.221879  0.217742
+1   0.121597  0.143533
+2   0.056052  0.088561
+3   0.031170  0.067898
+4   0.018289  0.054910
+5   0.011667  0.048620
+6   0.007649  0.038500
+7   0.005291  0.032234
+8   0.003778  0.027616
+9   0.002676  0.025668
+10  0.001970  0.022549
+11  0.001367  0.020217
+12  0.001017  0.018506
+13  0.000671  0.017221
+14  0.000515  0.015829
+15  0.000353  0.015655
+16  0.000249  0.014782
+17  0.000198  0.014181
+18  0.000120  0.013519
+19  0.000091  0.012846
+20  0.000029  0.012378
+21  0.000055  0.012141
+22  0.000016  0.012428
+23  0.000019  0.011959
+24  0.000003  0.012883
+25       NaN  0.013365
+26       NaN  0.014260
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.156590
+1           2  0.083905
+2           3  0.042199
+3           4  0.024529
+4           5  0.014657
+5           6  0.009668
+6           7  0.006311
+7           8  0.004290
+8           9  0.002809
+9          10  0.001860
+10         11  0.001199
+11         12  0.000878
+12         13  0.000541
+13         14  0.000314
+14         15  0.000168
+15         16  0.000084
+16         17  0.000039
+17         18  0.000010
+Country to match: Brazil
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: Brazil
+    variable  value
+0          1  94861
+1          2  60051
+2          3  48812
+3          4  38361
+4          5  34959
+5          6  30128
+6          7  24612
+7          8  23114
+8          9  21427
+9         10  19704
+10        11  18820
+11        12  17734
+12        13  16319
+13        14  15990
+14        15  16209
+15        16  16710
+16        17  18725
+17        18  30547
+         TEs   neutral
+0   0.156590  0.173394
+1   0.083905  0.109766
+2   0.042199  0.089222
+3   0.024529  0.070119
+4   0.014657  0.063901
+5   0.009668  0.055070
+6   0.006311  0.044988
+7   0.004290  0.042250
+8   0.002809  0.039166
+9   0.001860  0.036016
+10  0.001199  0.034401
+11  0.000878  0.032416
+12  0.000541  0.029829
+13  0.000314  0.029228
+14  0.000168  0.029628
+15  0.000084  0.030544
+16  0.000039  0.034227
+17  0.000010  0.055836
+Total count for TEs: 308659
+    occurence       TEs
+0           1  0.272777
+1           2  0.122993
+2           3  0.040699
+3           4  0.017340
+4           5  0.008479
+5           6  0.004646
+6           7  0.002475
+7           8  0.001312
+8           9  0.000752
+9          10  0.000437
+10         11  0.000159
+11         12  0.000065
+12         13  0.000026
+Country to match: Gabon
+Files in neutral data path: ['homozygous_counts_Brazil_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Cali_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Colombia_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Kenya_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Rio_Claro_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_Senegal_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs', 'homozygous_counts_USA_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs']
+Matching file: homozygous_counts_Gabon_rep_map_100kbgenes_centromere_filtered_sites_mask_folded.sfs -- to this country: Gabon
+    variable   value
+0          1  555938
+1          2  234684
+2          3  118830
+3          4   71633
+4          5   49326
+5          6   35167
+6          7   27755
+7          8   23970
+8          9   22355
+9         10   21764
+10        11   22100
+11        12   26257
+12        13   48562
+         TEs   neutral
+0   0.272777  0.441802
+1   0.122993  0.186503
+2   0.040699  0.094434
+3   0.017340  0.056927
+4   0.008479  0.039199
+5   0.004646  0.027947
+6   0.002475  0.022057
+7   0.001312  0.019049
+8   0.000752  0.017765
+9   0.000437  0.017296
+10  0.000159  0.017563
+11  0.000065  0.020866
+12  0.000026  0.038592
+          TEs   neutral  occurence Country
+0    0.184910  0.463724   0.000000   Kenya
+1    0.086445  0.184440   0.052632   Kenya
+2    0.042082  0.086661   0.105263   Kenya
+3    0.023029  0.053177   0.157895   Kenya
+4    0.013666  0.034040   0.210526   Kenya
+..        ...       ...        ...     ...
+116  0.000752  0.017765   0.615385   Gabon
+117  0.000437  0.017296   0.692308   Gabon
+118  0.000159  0.017563   0.769231   Gabon
+119  0.000065  0.020866   0.846154   Gabon
+120  0.000026  0.038592   0.923077   Gabon
+
+[121 rows x 4 columns]

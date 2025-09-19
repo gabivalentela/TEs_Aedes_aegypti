@@ -1,0 +1,41 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py:116: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+Senegal: Reference TEs = 169400, SNPs = 1593136
+Kenya: Reference TEs = 115655, SNPs = 2088655
+Colombia: Reference TEs = 116435, SNPs = 1133372
+Brazil: Reference TEs = 108046, SNPs = 908734
+USA: Reference TEs = 150231, SNPs = 1448295
+Gabon: Reference TEs = 145736, SNPs = 1708519
+: Reference TEs = N/A, SNPs = 2781265
+
+Full dictionary:
+{'Senegal': {'number_ref_TEs': 169400, 'number_snps': 1593136}, 'Kenya': {'number_ref_TEs': 115655, 'number_snps': 2088655}, 'Colombia': {'number_ref_TEs': 116435, 'number_snps': 1133372}, 'Brazil': {'number_ref_TEs': 108046, 'number_snps': 908734}, 'USA': {'number_ref_TEs': 150231, 'number_snps': 1448295}, 'Gabon': {'number_ref_TEs': 145736, 'number_snps': 1708519}, '': {'number_snps': 2781265}}
+Senegal: TE/SNP ratio = 0.10633116067931425
+nonreference results
+Kenya: TE/SNP ratio = 0.05537295532292313
+nonreference results
+Colombia: TE/SNP ratio = 0.10273325968878709
+nonreference results
+Brazil: TE/SNP ratio = 0.11889727907176358
+nonreference results
+USA: TE/SNP ratio = 0.103729557859414
+nonreference results
+Gabon: TE/SNP ratio = 0.08529960743778676
+nonreference results
+Traceback (most recent call last):
+  File "/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/ratio_SNPs_TEs/ratio_SNPs_TEs_nonref.py", line 137, in <module>
+    ref_data = data['number_ref_TEs']
+               ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'number_ref_TEs'

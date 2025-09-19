@@ -1,0 +1,5 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TEs_Aedes_aegypti/number_SNPs_TEs/number_SNPs_TEs.py:45: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  genotypes_df = genotypes_df.applymap(lambda x: x.split(':')[0] if isinstance(x, str) else x)
+the number of reference TEs is: 39159
+the number of non-reference TEs is: 308659
+the number of polymorphic SNPs is: 2810319
