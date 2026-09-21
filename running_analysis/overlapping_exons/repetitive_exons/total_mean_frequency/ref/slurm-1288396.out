@@ -1,0 +1,67 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/overlapping_exons/repetitive_exons/total_mean_frequency/ref/ref_overlap.py:360: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax1.legend(loc="upper left")
+
+--- Data for Brazil ---
+total number of TEs in Brazil: 174549
+total number of TEs overlapping genes in Brazil: 982
+total number of TEs NOT overlapping genes in Brazil: 173567
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in Brazil: 1417
+Unique TEs overlapping repetitive in Brazil: 173132
+
+--- Data for Colombia ---
+total number of TEs in Colombia: 163401
+total number of TEs overlapping genes in Colombia: 909
+total number of TEs NOT overlapping genes in Colombia: 162492
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in Colombia: 1381
+Unique TEs overlapping repetitive in Colombia: 162020
+
+--- Data for USA ---
+total number of TEs in USA: 186765
+total number of TEs overlapping genes in USA: 1047
+total number of TEs NOT overlapping genes in USA: 185718
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in USA: 1460
+Unique TEs overlapping repetitive in USA: 185305
+
+--- Data for Gabon ---
+total number of TEs in Gabon: 138791
+total number of TEs overlapping genes in Gabon: 617
+total number of TEs NOT overlapping genes in Gabon: 138174
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in Gabon: 1371
+Unique TEs overlapping repetitive in Gabon: 137420
+
+--- Data for Kenya ---
+total number of TEs in Kenya: 174778
+total number of TEs overlapping genes in Kenya: 913
+total number of TEs NOT overlapping genes in Kenya: 173865
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in Kenya: 1447
+Unique TEs overlapping repetitive in Kenya: 173331
+
+--- Data for Senegal ---
+total number of TEs in Senegal: 181639
+total number of TEs overlapping genes in Senegal: 967
+total number of TEs NOT overlapping genes in Senegal: 180672
+SUMS ARE MATCHING UP HERE!
+total number of TEs NOT overlapping repetitive in Senegal: 1467
+Unique TEs overlapping repetitive in Senegal: 180172
+Overall mean frequency - exonic: 0.6611
+Overall mean frequency - non-exonic: 0.7072
+values for plotting:
+          Exonic and Repetitive  ...  Non-Exonic and Non-Repetitive
+Brazil                 0.770418  ...                       0.912706
+Colombia               0.717140  ...                       0.830757
+USA                    0.688412  ...                       0.866849
+Gabon                  0.631780  ...                       0.819985
+Kenya                  0.525173  ...                       0.801283
+Senegal                0.604454  ...                       0.803127
+
+[6 rows x 4 columns]
+Exonic and Repetitive            0.656230
+Exonic and Non-Repetitive        0.856558
+Non-Exonic and Repetitive        0.704625
+Non-Exonic and Non-Repetitive    0.839118
+dtype: float64

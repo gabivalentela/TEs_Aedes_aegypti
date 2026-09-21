@@ -1,0 +1,39 @@
+Streaming SNP VCF…
+  79,035,097 SNP sites | 121 samples
+
+Loading TE file…
+  199,623 rows loaded from /work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/reference_vcf/genotyping_reference_TEs/post_processing/merged_results_5_2_either_filtered.csv
+Saved: ./te_coverage_per_chromosome.png
+Saved: ./te_coverage_proportion_per_chromosome.png
+Saved: ./te_coverage_pct_of_chromosome.png
+Saved: ./te_coverage_genome_wide.png
+Saved: ./te_coverage_summary.csv
+
+Coverage summary (Mb):
+TE_class       LINE    SINE      LTR     MITE     TIR  HELITRON  PENELOPE  UNKNOWN  TOTAL_TE_MB  CHROM_LENGTH_MB  PCT_OF_CHROM  PCT_OF_GENOME
+chromosome                                                                                                                                   
+AaegL5_1    10.5043  0.8225  10.1432   9.7040  4.7478    0.3916    0.1241   5.0352      41.4727       310.827022         13.34           3.47
+AaegL5_2    16.4579  1.4797  15.4904  16.4809  8.7260    0.6973    0.1846   8.2297      67.7465       474.425716         14.28           5.67
+AaegL5_3    14.3393  1.2186  13.6473  13.7634  7.2080    0.6777    0.1671   6.9938      58.0152       409.777670         14.16           4.85
+
+Building SNP coverage table…
+Saved: ./snp_pct_per_chromosome.png
+
+Calculating per-sample TE coverage (0/1, 1/0, and 1/1)…
+Saved: ./te_variation_boxplot_per_chrom.png
+Saved: ./te_variation_genome_wide.png
+Saved: ./per_sample_te_coverage.csv
+Saved: ./per_sample_summary.csv
+Saved: ./per_sample_stats.csv
+
+Variation summary (% of genome):
+                mean  median     std     min     max
+LINE          1.3784  1.4639  0.3589  0.6784  2.0435
+SINE          0.1266  0.1368  0.0304  0.0703  0.1806
+LTR           1.3511  1.4394  0.3084  0.7639  1.9117
+MITE          1.4671  1.5780  0.3267  0.8525  2.1029
+TIR           0.8775  0.9112  0.1231  0.6295  1.1397
+HELITRON      0.0675  0.0690  0.0079  0.0474  0.0855
+PENELOPE      0.0210  0.0218  0.0028  0.0144  0.0261
+UNKNOWN       0.8493  0.8817  0.1257  0.6011  1.0978
+TOTAL_TE_PCT  6.1385  6.5146  1.2792  3.6767  8.5536

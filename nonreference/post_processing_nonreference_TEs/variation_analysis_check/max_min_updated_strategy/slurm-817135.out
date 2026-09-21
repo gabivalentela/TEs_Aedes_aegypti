@@ -1,0 +1,23 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/nonreference_vcf/post_processing_nonreference_TEs/variation_analysis_check/max_min_updated_strategy/variation_analysis.py:64: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = ax.boxplot(
+
+[1] TE counts:
+  100: 185798
+  1000: 291199
+  500: 258702
+
+[2] TE size summary (bp):
+  100: median=107, mean=127, min=2, max=830
+  1000: median=469, mean=545, min=2, max=3360
+  500: median=388, mean=411, min=2, max=2543
+
+[3] Frequency summary:
+  100: mean=0.070, median=0.049, std=0.068, n=185798
+  1000: mean=0.102, median=0.066, std=0.104, n=291199
+  500: mean=0.104, median=0.066, std=0.105, n=258702
+
+[4] TE family counts:
+family   LINE   SINE    LTR    MITE    TIR  HELITRON  PENELOPE  UNKNOWN
+100     20259  13722  31474   69278  22085      2501      1022    25457
+1000    35717  21964  51478  101589  34367      4796      1451    39837
+500     30110  19438  44640   93215  30820      3945      1309    35225

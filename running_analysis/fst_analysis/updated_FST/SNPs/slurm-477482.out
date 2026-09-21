@@ -1,0 +1,63 @@
+
+--- SNPs FST: Brazil vs Senegal (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs Senegal): 0.2202
+
+--- SNPs FST: Brazil vs Colombia (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs Colombia): 0.2102
+
+--- SNPs FST: Brazil vs Gabon (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs Gabon): 0.3197
+
+--- SNPs FST: Brazil vs Unknown (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs Unknown): 0.1862
+
+--- SNPs FST: Brazil vs Kenya (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs Kenya): 0.2731
+
+--- SNPs FST: Brazil vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Brazil vs USA): 0.1517
+
+--- SNPs FST: Senegal vs Colombia (2828398 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Colombia): 0.2642
+
+--- SNPs FST: Senegal vs Gabon (2828398 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Gabon): 0.1555
+
+--- SNPs FST: Senegal vs Unknown (2828398 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Unknown): 0.2219
+
+--- SNPs FST: Senegal vs Kenya (2828398 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Kenya): 0.1760
+
+--- SNPs FST: Senegal vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Senegal vs USA): 0.1572
+
+--- SNPs FST: Colombia vs Gabon (2828398 candidate sites) ---
+Genome-wide weighted FST (Colombia vs Gabon): 0.3576
+
+--- SNPs FST: Colombia vs Unknown (2828398 candidate sites) ---
+Genome-wide weighted FST (Colombia vs Unknown): 0.2575
+
+--- SNPs FST: Colombia vs Kenya (2828398 candidate sites) ---
+Genome-wide weighted FST (Colombia vs Kenya): 0.3154
+
+--- SNPs FST: Colombia vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Colombia vs USA): 0.2107
+
+--- SNPs FST: Gabon vs Unknown (2828398 candidate sites) ---
+Genome-wide weighted FST (Gabon vs Unknown): 0.3251
+
+--- SNPs FST: Gabon vs Kenya (2828398 candidate sites) ---
+Genome-wide weighted FST (Gabon vs Kenya): 0.1382
+
+--- SNPs FST: Gabon vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Gabon vs USA): 0.2450
+
+--- SNPs FST: Unknown vs Kenya (2828398 candidate sites) ---
+Genome-wide weighted FST (Unknown vs Kenya): 0.2823
+
+--- SNPs FST: Unknown vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Unknown vs USA): 0.1589
+
+--- SNPs FST: Kenya vs USA (2828398 candidate sites) ---
+Genome-wide weighted FST (Kenya vs USA): 0.2085

@@ -1,0 +1,34 @@
+                                       TE_information  ...             freq_country
+0   AaegL5_3_104852612_104854274_TE_1288_mTA_TIR_M...  ...                 [Brazil]
+1   AaegL5_3_112478001_112481674_TE_1479_Sola_TIR_...  ...                    [USA]
+2   AaegL5_3_112498891_112500170_TE_1528_Unknown_U...  ...          [Colombia, USA]
+3   AaegL5_2_356386696_356387738_TE_1274_mTA_TIR_M...  ...                 [Brazil]
+4   AaegL5_1_301236516_301236900_TE_0207_BelPao_Re...  ...               [Colombia]
+5   AaegL5_1_286913061_286913992_TE_1294_mTA_TIR_M...  ...          [Colombia, USA]
+6   AaegL5_1_271430750_271431112_TE_1117_m4bp_TIR_...  ...                [Senegal]
+7   AaegL5_1_271410850_271414294_TE_1448_RTE_LINE_...  ...            [Brazil, USA]
+8   AaegL5_1_271415760_271415958_TE_1256_mTA_TIR_M...  ...            [Brazil, USA]
+9   AaegL5_3_316015235_316016156_TE_1179_Mariner_T...  ...                    [USA]
+10  AaegL5_3_316021786_316022916_TE_0632_Unknown_U...  ...     [Brazil, Kenya, USA]
+11  AaegL5_3_316121465_316126215_TE_1021_Jockey_LI...  ...  [Brazil, Colombia, USA]
+12  AaegL5_3_316137600_316138116_TE_1250_mTA_TIR_M...  ...       [Brazil, Colombia]
+13  AaegL5_3_316191316_316192467_TE_0928_hAT_TIR_h...  ...                    [USA]
+14  AaegL5_3_316260826_316261032_TE_1105_m4bp_TIR_...  ...                  [Gabon]
+15  AaegL5_3_316274369_316276098_TE_1754_Zator_TIR...  ...                  [Kenya]
+16  AaegL5_3_316296011_316299221_TE_1243_MITE_TIR_...  ...                  [Kenya]
+17  AaegL5_3_316305868_316306149_TE_1463_SINE_SINE...  ...                 [Brazil]
+18  AaegL5_3_316326337_316327394_TE_0668_Gypsy_Ret...  ...       [Brazil, Colombia]
+19  AaegL5_3_316331390_316333793_TE_1121_m4bp_TIR_...  ...  [Brazil, Colombia, USA]
+20  AaegL5_3_316374005_316374376_TE_1013_Jockey_LI...  ...       [Brazil, Colombia]
+21  AaegL5_3_316385280_316387559_TE_1384_R1_LINE_L...  ...               [Colombia]
+22  AaegL5_3_316391898_316392190_TE_1463_SINE_SINE...  ...                 [Brazil]
+23  AaegL5_3_316394966_316395395_TE_0517_Copia_Ret...  ...               [Colombia]
+24  AaegL5_3_316173465_316174403_TE_1239_MITE_TIR_...  ...                 [Brazil]
+25  AaegL5_3_316387362_316388588_TE_1270_mTA_TIR_M...  ...                 [Brazil]
+
+[26 rows x 24 columns]
+Gene AAEL002085 has 5 exons.
+Gene AAEL010582 has 2 exons.
+Gene AAEL014890 has 2 exons.
+Gene AAEL023266 has 48 exons.
+Saved figure to: /work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/genomic_location/VectorBase_Annotation/plotting_IR_results/all_genes_regions.png

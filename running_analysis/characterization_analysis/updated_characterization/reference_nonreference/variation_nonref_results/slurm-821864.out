@@ -1,0 +1,438 @@
+Number of genotype columns: 122
+Number of TEs with tied genotype counts: 1902 out of 199623
+Total TE genome proportion: 13.99%
+
+--- Data for Gabon ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ TIR      ┆ 21343 │
+│ LINE     ┆ 13151 │
+│ LTR      ┆ 23163 │
+│ SINE     ┆ 8949  │
+│ UNKNOWN  ┆ 24023 │
+│ PENELOPE ┆ 870   │
+│ HELITRON ┆ 1365  │
+│ MITE     ┆ 45927 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Gabon
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 17654 ┆ 48.03156   │
+│ AaegL5_1   ┆ LTR      ┆ 6491  ┆ 17.660182  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 6038  ┆ 16.427697  │
+│ AaegL5_1   ┆ LINE     ┆ 3657  ┆ 9.949667   │
+│ AaegL5_1   ┆ SINE     ┆ 2316  ┆ 6.301184   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ LTR      ┆ 7591  ┆ 16.639632  │
+│ AaegL5_3   ┆ LINE     ┆ 4249  ┆ 9.313897   │
+│ AaegL5_3   ┆ SINE     ┆ 2935  ┆ 6.433582   │
+│ AaegL5_3   ┆ HELITRON ┆ 442   ┆ 0.968873   │
+│ AaegL5_3   ┆ PENELOPE ┆ 280   ┆ 0.613766   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Kenya ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ TIR      ┆ 25138 │
+│ LINE     ┆ 17466 │
+│ PENELOPE ┆ 967   │
+│ UNKNOWN  ┆ 27996 │
+│ LTR      ┆ 30283 │
+│ SINE     ┆ 12001 │
+│ MITE     ┆ 59375 │
+│ HELITRON ┆ 1552  │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Kenya
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 19720 ┆ 47.96653   │
+│ AaegL5_1   ┆ LTR      ┆ 7433  ┆ 18.079879  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 6561  ┆ 15.958844  │
+│ AaegL5_1   ┆ LINE     ┆ 4104  ┆ 9.982487   │
+│ AaegL5_1   ┆ SINE     ┆ 2667  ┆ 6.487157   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 9798  ┆ 16.13105   │
+│ AaegL5_3   ┆ LINE     ┆ 6109  ┆ 10.057623  │
+│ AaegL5_3   ┆ SINE     ┆ 4186  ┆ 6.891669   │
+│ AaegL5_3   ┆ HELITRON ┆ 525   ┆ 0.86434    │
+│ AaegL5_3   ┆ PENELOPE ┆ 330   ┆ 0.543299   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Brazil ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ LINE     ┆ 17633 │
+│ TIR      ┆ 24806 │
+│ LTR      ┆ 30628 │
+│ MITE     ┆ 59487 │
+│ SINE     ┆ 11902 │
+│ HELITRON ┆ 1499  │
+│ UNKNOWN  ┆ 27642 │
+│ PENELOPE ┆ 952   │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Brazil
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 20019 ┆ 47.705176  │
+│ AaegL5_1   ┆ LTR      ┆ 7729  ┆ 18.418168  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 6521  ┆ 15.53951   │
+│ AaegL5_1   ┆ LINE     ┆ 4338  ┆ 10.337432  │
+│ AaegL5_1   ┆ SINE     ┆ 2758  ┆ 6.5723     │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 9785  ┆ 15.938559  │
+│ AaegL5_3   ┆ LINE     ┆ 6179  ┆ 10.064829  │
+│ AaegL5_3   ┆ SINE     ┆ 4226  ┆ 6.883633   │
+│ AaegL5_3   ┆ HELITRON ┆ 521   ┆ 0.848645   │
+│ AaegL5_3   ┆ PENELOPE ┆ 325   ┆ 0.529385   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Colombia ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ SINE     ┆ 11148 │
+│ TIR      ┆ 23470 │
+│ PENELOPE ┆ 910   │
+│ UNKNOWN  ┆ 26394 │
+│ LTR      ┆ 28645 │
+│ HELITRON ┆ 1452  │
+│ LINE     ┆ 16508 │
+│ MITE     ┆ 54874 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Colombia
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 18282 ┆ 47.387247  │
+│ AaegL5_1   ┆ LTR      ┆ 7092  ┆ 18.382582  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 6138  ┆ 15.909798  │
+│ AaegL5_1   ┆ LINE     ┆ 3993  ┆ 10.349922  │
+│ AaegL5_1   ┆ SINE     ┆ 2492  ┆ 6.459305   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 9375  ┆ 16.271239  │
+│ AaegL5_3   ┆ LINE     ┆ 5805  ┆ 10.075151  │
+│ AaegL5_3   ┆ SINE     ┆ 3986  ┆ 6.918097   │
+│ AaegL5_3   ┆ HELITRON ┆ 505   ┆ 0.876477   │
+│ AaegL5_3   ┆ PENELOPE ┆ 314   ┆ 0.544978   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for USA ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ SINE     ┆ 12826 │
+│ UNKNOWN  ┆ 29227 │
+│ LTR      ┆ 32996 │
+│ MITE     ┆ 63945 │
+│ HELITRON ┆ 1583  │
+│ LINE     ┆ 19028 │
+│ PENELOPE ┆ 1001  │
+│ TIR      ┆ 26159 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): USA
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 21916 ┆ 47.659019  │
+│ AaegL5_1   ┆ LTR      ┆ 8575  ┆ 18.647385  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 7077  ┆ 15.389801  │
+│ AaegL5_1   ┆ LINE     ┆ 4772  ┆ 10.377297  │
+│ AaegL5_1   ┆ SINE     ┆ 2992  ┆ 6.50647    │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 10217 ┆ 15.740498  │
+│ AaegL5_3   ┆ LINE     ┆ 6605  ┆ 10.175785  │
+│ AaegL5_3   ┆ SINE     ┆ 4524  ┆ 6.969758   │
+│ AaegL5_3   ┆ HELITRON ┆ 542   ┆ 0.835015   │
+│ AaegL5_3   ┆ PENELOPE ┆ 339   ┆ 0.52227    │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Senegal ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ LTR      ┆ 31739 │
+│ HELITRON ┆ 1584  │
+│ LINE     ┆ 18363 │
+│ SINE     ┆ 12415 │
+│ UNKNOWN  ┆ 28796 │
+│ TIR      ┆ 25704 │
+│ MITE     ┆ 62053 │
+│ PENELOPE ┆ 985   │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Senegal
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 20989 ┆ 47.936508  │
+│ AaegL5_1   ┆ LTR      ┆ 7984  ┆ 18.234555  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 6828  ┆ 15.594382  │
+│ AaegL5_1   ┆ LINE     ┆ 4512  ┆ 10.304899  │
+│ AaegL5_1   ┆ SINE     ┆ 2827  ┆ 6.456549   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 10057 ┆ 16.041919  │
+│ AaegL5_3   ┆ LINE     ┆ 6324  ┆ 10.087411  │
+│ AaegL5_3   ┆ SINE     ┆ 4316  ┆ 6.884451   │
+│ AaegL5_3   ┆ HELITRON ┆ 546   ┆ 0.870925   │
+│ AaegL5_3   ┆ PENELOPE ┆ 328   ┆ 0.523193   │
+└────────────┴──────────┴───────┴────────────┘
+Number of genotype columns: 122
+Number of TEs with tied genotype counts: 211 out of 258702
+Total TE genome proportion: 8.89%
+
+--- Data for Gabon ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ LINE     ┆ 13609 │
+│ HELITRON ┆ 1425  │
+│ LTR      ┆ 19473 │
+│ UNKNOWN  ┆ 16640 │
+│ SINE     ┆ 10386 │
+│ MITE     ┆ 48929 │
+│ PENELOPE ┆ 695   │
+│ TIR      ┆ 15483 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Gabon
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 11830 ┆ 48.985507  │
+│ AaegL5_1   ┆ LTR      ┆ 3920  ┆ 16.231884  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 3194  ┆ 13.225673  │
+│ AaegL5_1   ┆ LINE     ┆ 2808  ┆ 11.627329  │
+│ AaegL5_1   ┆ SINE     ┆ 1954  ┆ 8.091097   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 7699  ┆ 13.371891  │
+│ AaegL5_3   ┆ LINE     ┆ 6197  ┆ 10.763165  │
+│ AaegL5_3   ┆ SINE     ┆ 4526  ┆ 7.860914   │
+│ AaegL5_3   ┆ HELITRON ┆ 626   ┆ 1.087259   │
+│ AaegL5_3   ┆ PENELOPE ┆ 290   ┆ 0.503682   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Kenya ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ HELITRON ┆ 1894  │
+│ LINE     ┆ 16365 │
+│ SINE     ┆ 12190 │
+│ UNKNOWN  ┆ 19288 │
+│ LTR      ┆ 23297 │
+│ TIR      ┆ 17389 │
+│ MITE     ┆ 54427 │
+│ PENELOPE ┆ 775   │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Kenya
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 13881 ┆ 46.737374  │
+│ AaegL5_1   ┆ LTR      ┆ 5070  ┆ 17.070707  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 3959  ┆ 13.329966  │
+│ AaegL5_1   ┆ LINE     ┆ 3684  ┆ 12.40404   │
+│ AaegL5_1   ┆ SINE     ┆ 2479  ┆ 8.346801   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 7456  ┆ 13.294818  │
+│ AaegL5_3   ┆ LINE     ┆ 6354  ┆ 11.329838  │
+│ AaegL5_3   ┆ SINE     ┆ 4604  ┆ 8.209408   │
+│ AaegL5_3   ┆ HELITRON ┆ 732   ┆ 1.305232   │
+│ AaegL5_3   ┆ PENELOPE ┆ 279   ┆ 0.497486   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Brazil ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ PENELOPE ┆ 760   │
+│ TIR      ┆ 16288 │
+│ UNKNOWN  ┆ 18361 │
+│ LINE     ┆ 15388 │
+│ SINE     ┆ 9989  │
+│ MITE     ┆ 47896 │
+│ LTR      ┆ 23719 │
+│ HELITRON ┆ 2172  │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Brazil
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 14661 ┆ 45.501381  │
+│ AaegL5_1   ┆ LTR      ┆ 5961  ┆ 18.500357  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 4489  ┆ 13.931908  │
+│ AaegL5_1   ┆ LINE     ┆ 3992  ┆ 12.389435  │
+│ AaegL5_1   ┆ SINE     ┆ 2346  ┆ 7.280966   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 5760  ┆ 13.528749  │
+│ AaegL5_3   ┆ LINE     ┆ 4828  ┆ 11.339722  │
+│ AaegL5_3   ┆ SINE     ┆ 3238  ┆ 7.605224   │
+│ AaegL5_3   ┆ HELITRON ┆ 702   ┆ 1.648816   │
+│ AaegL5_3   ┆ PENELOPE ┆ 218   ┆ 0.512026   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Colombia ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ SINE     ┆ 11386 │
+│ LINE     ┆ 17246 │
+│ TIR      ┆ 15109 │
+│ HELITRON ┆ 2570  │
+│ LTR      ┆ 23818 │
+│ UNKNOWN  ┆ 17721 │
+│ PENELOPE ┆ 640   │
+│ MITE     ┆ 43176 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Colombia
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 15832 ┆ 41.232388  │
+│ AaegL5_1   ┆ LTR      ┆ 7328  ┆ 19.084824  │
+│ AaegL5_1   ┆ LINE     ┆ 5598  ┆ 14.579264  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 5188  ┆ 13.511472  │
+│ AaegL5_1   ┆ SINE     ┆ 3322  ┆ 8.651718   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 5418  ┆ 13.460535  │
+│ AaegL5_3   ┆ LINE     ┆ 4989  ┆ 12.394723  │
+│ AaegL5_3   ┆ SINE     ┆ 3465  ┆ 8.608482   │
+│ AaegL5_3   ┆ HELITRON ┆ 749   ┆ 1.860823   │
+│ AaegL5_3   ┆ PENELOPE ┆ 174   ┆ 0.432287   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for USA ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ LTR      ┆ 27129 │
+│ UNKNOWN  ┆ 21170 │
+│ TIR      ┆ 18498 │
+│ SINE     ┆ 11717 │
+│ MITE     ┆ 56669 │
+│ HELITRON ┆ 2380  │
+│ PENELOPE ┆ 825   │
+│ LINE     ┆ 18023 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): USA
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 17399 ┆ 45.606815  │
+│ AaegL5_1   ┆ LTR      ┆ 6983  ┆ 18.304063  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 5254  ┆ 13.771953  │
+│ AaegL5_1   ┆ LINE     ┆ 4846  ┆ 12.70249   │
+│ AaegL5_1   ┆ SINE     ┆ 2776  ┆ 7.27654    │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 7092  ┆ 13.493407  │
+│ AaegL5_3   ┆ LINE     ┆ 5942  ┆ 11.30539   │
+│ AaegL5_3   ┆ SINE     ┆ 3952  ┆ 7.519169   │
+│ AaegL5_3   ┆ HELITRON ┆ 817   ┆ 1.554444   │
+│ AaegL5_3   ┆ PENELOPE ┆ 256   ┆ 0.487072   │
+└────────────┴──────────┴───────┴────────────┘
+
+--- Data for Senegal ---
+this is the grouped df: shape: (8, 2)
+┌──────────┬───────┐
+│ TE_name  ┆ count │
+│ ---      ┆ ---   │
+│ str      ┆ u32   │
+╞══════════╪═══════╡
+│ PENELOPE ┆ 924   │
+│ LTR      ┆ 28582 │
+│ MITE     ┆ 63246 │
+│ UNKNOWN  ┆ 23481 │
+│ SINE     ┆ 13274 │
+│ HELITRON ┆ 2366  │
+│ TIR      ┆ 20843 │
+│ LINE     ┆ 19502 │
+└──────────┴───────┘
+In this country, TE percentages per chromosome are as follows (filtered by AaegL): Senegal
+shape: (21, 4)
+┌────────────┬──────────┬───────┬────────────┐
+│ chromosome ┆ TE_name  ┆ count ┆ percentage │
+│ ---        ┆ ---      ┆ ---   ┆ ---        │
+│ str        ┆ str      ┆ u32   ┆ f64        │
+╞════════════╪══════════╪═══════╪════════════╡
+│ AaegL5_1   ┆ TIR      ┆ 18510 ┆ 46.677594  │
+│ AaegL5_1   ┆ LTR      ┆ 6981  ┆ 17.604337  │
+│ AaegL5_1   ┆ UNKNOWN  ┆ 5496  ┆ 13.859539  │
+│ AaegL5_1   ┆ LINE     ┆ 4829  ┆ 12.177531  │
+│ AaegL5_1   ┆ SINE     ┆ 2975  ┆ 7.502207   │
+│ …          ┆ …        ┆ …     ┆ …          │
+│ AaegL5_3   ┆ UNKNOWN  ┆ 8451  ┆ 13.653768  │
+│ AaegL5_3   ┆ LINE     ┆ 7012  ┆ 11.328863  │
+│ AaegL5_3   ┆ SINE     ┆ 4760  ┆ 7.690443   │
+│ AaegL5_3   ┆ HELITRON ┆ 845   ┆ 1.365215   │
+│ AaegL5_3   ┆ PENELOPE ┆ 329   ┆ 0.531545   │
+└────────────┴──────────┴───────┴────────────┘

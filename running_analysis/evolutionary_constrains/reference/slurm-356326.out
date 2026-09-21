@@ -1,0 +1,345 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/reference/./frequency_analysis_reference.py:203: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(f"./results/top_10_TEs_frequencies_{country1}_{country2}.png")
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/reference/./frequency_analysis_reference.py:202: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/reference/./frequency_analysis_reference.py:203: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(f"./results/top_10_TEs_frequencies_{country1}_{country2}.png")
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/reference/./frequency_analysis_reference.py:202: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/evolutionary_constrains/reference/./frequency_analysis_reference.py:203: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(f"./results/top_10_TEs_frequencies_{country1}_{country2}.png")
+
+--- Data for Brazil ---
+18
+       chromosome  position_start  ...  count_1/1     frequency
+0        AaegL5_1           20922  ...          6      0.666667
+1        AaegL5_1           29147  ...          0      0.071429
+2        AaegL5_1           63238  ...          1      0.136364
+3        AaegL5_1           64121  ...          2           1.0
+4        AaegL5_1           65643  ...          2           0.4
+...           ...             ...  ...        ...           ...
+199618   AaegL5_3       409734350  ...          0  missing_info
+199619   AaegL5_3       409743080  ...          1      0.321429
+199620   AaegL5_3       409764396  ...          0           0.0
+199621   AaegL5_3       409770531  ...         12           1.0
+199622   AaegL5_3       409770645  ...         13           1.0
+
+[199623 rows x 25 columns]
+
+--- Data for Colombia ---
+24
+       chromosome  position_start  ...  count_1/1     frequency
+0        AaegL5_1           20922  ...         16           1.0
+1        AaegL5_1           29147  ...          0           0.0
+2        AaegL5_1           63238  ...          0           0.0
+3        AaegL5_1           64121  ...          0  missing_info
+4        AaegL5_1           65643  ...          0           0.0
+...           ...             ...  ...        ...           ...
+199618   AaegL5_3       409734350  ...          0  missing_info
+199619   AaegL5_3       409743080  ...          3      0.368421
+199620   AaegL5_3       409764396  ...          0           0.0
+199621   AaegL5_3       409770531  ...         10        0.8125
+199622   AaegL5_3       409770645  ...         10        0.8125
+
+[199623 rows x 31 columns]
+
+--- Data for Kenya ---
+19
+       chromosome  position_start  ...  count_1/1     frequency
+0        AaegL5_1           20922  ...          0           0.5
+1        AaegL5_1           29147  ...          0      0.035714
+2        AaegL5_1           63238  ...          1          0.25
+3        AaegL5_1           64121  ...          0           0.0
+4        AaegL5_1           65643  ...          1           1.0
+...           ...             ...  ...        ...           ...
+199618   AaegL5_3       409734350  ...          0  missing_info
+199619   AaegL5_3       409743080  ...          4      0.666667
+199620   AaegL5_3       409764396  ...          1      0.166667
+199621   AaegL5_3       409770531  ...         11      0.789474
+199622   AaegL5_3       409770645  ...         16      0.921053
+
+[199623 rows x 26 columns]
+
+--- Data for USA ---
+28
+       chromosome  position_start  ...  count_1/1 frequency
+0        AaegL5_1           20922  ...          2  0.537037
+1        AaegL5_1           29147  ...          2  0.130435
+2        AaegL5_1           63238  ...          3  0.205882
+3        AaegL5_1           64121  ...          4       1.0
+4        AaegL5_1           65643  ...          4  0.666667
+...           ...             ...  ...        ...       ...
+199618   AaegL5_3       409734350  ...          1       1.0
+199619   AaegL5_3       409743080  ...         12  0.630435
+199620   AaegL5_3       409764396  ...          0       0.0
+199621   AaegL5_3       409770531  ...         18  0.973684
+199622   AaegL5_3       409770645  ...         19       1.0
+
+[199623 rows x 35 columns]
+
+--- Data for Gabon ---
+13
+       chromosome  position_start  ...  count_1/1     frequency
+0        AaegL5_1           20922  ...          0           0.5
+1        AaegL5_1           29147  ...          0           0.0
+2        AaegL5_1           63238  ...          1           0.2
+3        AaegL5_1           64121  ...          0  missing_info
+4        AaegL5_1           65643  ...          1           1.0
+...           ...             ...  ...        ...           ...
+199618   AaegL5_3       409734350  ...          0  missing_info
+199619   AaegL5_3       409743080  ...          0           0.0
+199620   AaegL5_3       409764396  ...          0           0.0
+199621   AaegL5_3       409770531  ...          6      0.730769
+199622   AaegL5_3       409770645  ...         11      0.923077
+
+[199623 rows x 20 columns]
+
+--- Data for Senegal ---
+20
+       chromosome  position_start  ...  count_1/1 frequency
+0        AaegL5_1           20922  ...          4       0.6
+1        AaegL5_1           29147  ...          0     0.025
+2        AaegL5_1           63238  ...          0  0.083333
+3        AaegL5_1           64121  ...          0       0.0
+4        AaegL5_1           65643  ...          4       1.0
+...           ...             ...  ...        ...       ...
+199618   AaegL5_3       409734350  ...          0       0.0
+199619   AaegL5_3       409743080  ...          1  0.166667
+199620   AaegL5_3       409764396  ...          0       0.0
+199621   AaegL5_3       409770531  ...         10  0.884615
+199622   AaegL5_3       409770645  ...         13  0.964286
+
+[199623 rows x 27 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+93      AaegL5_1_100456833_100457352_TE_0088_BelPao_Re...  ...             1.0
+446     AaegL5_1_102116494_102117008_TE_1296_mTA_TIR_M...  ...             1.0
+453     AaegL5_1_102144490_102144644_TE_1464_SINE_SINE...  ...             1.0
+454     AaegL5_1_102144490_102144663_TE_0613_Unknown_U...  ...             1.0
+501     AaegL5_1_102356171_102356466_TE_1679_Unknown_U...  ...             1.0
+...                                                   ...  ...             ...
+199203  AaegL5_3_97247072_97247302_TE_1103_m3bp_TIR_MI...  ...             1.0
+199227  AaegL5_3_97377968_97378569_TE_0925_Harbinger_T...  ...             1.0
+199319  AaegL5_3_97937904_97938145_TE_1463_SINE_SINE_S...  ...             1.0
+199323  AaegL5_3_97984460_97984679_TE_0323_Copia_Retro...  ...             1.0
+199576  AaegL5_3_99773783_99775557_TE_1281_mTA_TIR_MIT...  ...             1.0
+
+[3497 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+44      AaegL5_1_100167703_100168808_TE_1573_Unknown_U...  ...             1.0
+87      AaegL5_1_100423183_100423500_TE_1296_mTA_TIR_M...  ...             1.0
+92      AaegL5_1_100456498_100457550_TE_1090_Loa_LINE_...  ...             1.0
+104     AaegL5_1_100517267_100517801_TE_1297_mTA_TIR_M...  ...             1.0
+...                                                   ...  ...             ...
+199518  AaegL5_3_9933716_9934744_TE_1282_mTA_TIR_MITE_...  ...             1.0
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199548  AaegL5_3_9953946_9959950_TE_1429_R1_LINE_LINE_...  ...             1.0
+199574  AaegL5_3_99753727_99755373_TE_1274_mTA_TIR_MIT...  ...             1.0
+199585  AaegL5_3_99822730_99822949_TE_1270_mTA_TIR_MIT...  ...             1.0
+
+[4530 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+93      AaegL5_1_100456833_100457352_TE_0088_BelPao_Re...  ...             1.0
+97      AaegL5_1_100473845_100474285_TE_0517_Copia_Ret...  ...             1.0
+136     AaegL5_1_100736456_100737146_TE_1266_mTA_TIR_M...  ...             1.0
+298     AaegL5_1_101530539_101531827_TE_1136_m8bp_TIR_...  ...             1.0
+336     AaegL5_1_101648297_101648496_TE_1256_mTA_TIR_M...  ...             1.0
+...                                                   ...  ...             ...
+198884  AaegL5_3_95468894_95469084_TE_1235_MITE_TIR_MI...  ...             1.0
+199092  AaegL5_3_96494372_96495030_TE_0163_BelPao_Retr...  ...             1.0
+199094  AaegL5_3_96522303_96522676_TE_1123_m8bp_TIR_MI...  ...             1.0
+199108  AaegL5_3_96636549_96638869_TE_1737_Unknown_Unk...  ...             1.0
+199227  AaegL5_3_97377968_97378569_TE_0925_Harbinger_T...  ...             1.0
+
+[1480 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+93      AaegL5_1_100456833_100457352_TE_0088_BelPao_Re...  ...             1.0
+130     AaegL5_1_100695944_100696163_TE_1270_mTA_TIR_M...  ...             1.0
+285     AaegL5_1_101484176_101484429_TE_1236_MITE_TIR_...  ...             1.0
+...                                                   ...  ...             ...
+199604  AaegL5_3_9990962_9993343_TE_1448_RTE_LINE_LINE...  ...             1.0
+199609  AaegL5_3_99928723_99929230_TE_1251_mTA_TIR_MIT...  ...             1.0
+199610  AaegL5_3_99931973_99932187_TE_1254_mTA_TIR_MIT...  ...             1.0
+199619  AaegL5_3_99985050_99985830_TE_1277_mTA_TIR_MIT...  ...             1.0
+199621  AaegL5_3_99990079_99990422_TE_0632_Unknown_Unk...  ...             1.0
+
+[14103 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+44      AaegL5_1_100167703_100168808_TE_1573_Unknown_U...  ...             1.0
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+93      AaegL5_1_100456833_100457352_TE_0088_BelPao_Re...  ...             1.0
+104     AaegL5_1_100517267_100517801_TE_1297_mTA_TIR_M...  ...             1.0
+217     AaegL5_1_10117683_10118287_TE_1109_m4bp_TIR_MI...  ...             1.0
+...                                                   ...  ...             ...
+199472  AaegL5_3_99068652_99069082_TE_1105_m4bp_TIR_MI...  ...             1.0
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199566  AaegL5_3_99662110_99668424_TE_1429_R1_LINE_LIN...  ...             1.0
+199574  AaegL5_3_99753727_99755373_TE_1274_mTA_TIR_MIT...  ...             1.0
+199576  AaegL5_3_99773783_99775557_TE_1281_mTA_TIR_MIT...  ...             1.0
+
+[2985 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+32      AaegL5_1_100107455_100108254_TE_0650_Gypsy_Ret...  ...             1.0
+36      AaegL5_1_100130932_100132232_TE_1531_MITE_TIR_...  ...             1.0
+87      AaegL5_1_100423183_100423500_TE_1296_mTA_TIR_M...  ...             1.0
+92      AaegL5_1_100456498_100457550_TE_1090_Loa_LINE_...  ...             1.0
+...                                                   ...  ...             ...
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199548  AaegL5_3_9953946_9959950_TE_1429_R1_LINE_LINE_...  ...             1.0
+199552  AaegL5_3_99586787_99587024_TE_0614_Unknown_Unk...  ...             1.0
+199574  AaegL5_3_99753727_99755373_TE_1274_mTA_TIR_MIT...  ...             1.0
+199580  AaegL5_3_99788390_99792784_TE_0190_BelPao_Retr...  ...             1.0
+
+[4558 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+162     AaegL5_1_100896662_100896898_TE_0094_BelPao_Re...  ...             1.0
+287     AaegL5_1_101490098_101490535_TE_1301_mTA_TIR_M...  ...             1.0
+289     AaegL5_1_101494222_101494478_TE_1468_Sola_TIR_...  ...             1.0
+336     AaegL5_1_101648297_101648496_TE_1256_mTA_TIR_M...  ...             1.0
+342     AaegL5_1_101666003_101667091_TE_1119_m4bp_TIR_...  ...             1.0
+...                                                   ...  ...             ...
+198763  AaegL5_3_94906546_94908665_TE_0534_Copia_Retro...  ...             1.0
+199035  AaegL5_3_96213243_96214371_TE_0942_hAT_TIR_hAT...  ...             1.0
+199063  AaegL5_3_96320154_96320583_TE_0517_Copia_Retro...  ...             1.0
+199313  AaegL5_3_97907698_97911251_TE_1104_m3bp_TIR_MI...  ...             1.0
+199423  AaegL5_3_9867870_9871557_TE_1456_RTE_LINE_LINE...  ...             1.0
+
+[2454 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+32      AaegL5_1_100107455_100108254_TE_0650_Gypsy_Ret...  ...             1.0
+36      AaegL5_1_100130932_100132232_TE_1531_MITE_TIR_...  ...             1.0
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+130     AaegL5_1_100695944_100696163_TE_1270_mTA_TIR_M...  ...             1.0
+...                                                   ...  ...             ...
+199592  AaegL5_3_99850179_99850470_TE_1463_SINE_SINE_S...  ...             1.0
+199593  AaegL5_3_99860394_99860563_TE_1121_m4bp_TIR_MI...  ...             1.0
+199604  AaegL5_3_9990962_9993343_TE_1448_RTE_LINE_LINE...  ...             1.0
+199609  AaegL5_3_99928723_99929230_TE_1251_mTA_TIR_MIT...  ...             1.0
+199619  AaegL5_3_99985050_99985830_TE_1277_mTA_TIR_MIT...  ...             1.0
+
+[11362 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+36      AaegL5_1_100130932_100132232_TE_1531_MITE_TIR_...  ...             1.0
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+182     AaegL5_1_101016774_101018098_TE_0142_BelPao_Re...  ...             1.0
+217     AaegL5_1_10117683_10118287_TE_1109_m4bp_TIR_MI...  ...             1.0
+285     AaegL5_1_101484176_101484429_TE_1236_MITE_TIR_...  ...             1.0
+...                                                   ...  ...             ...
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199552  AaegL5_3_99586787_99587024_TE_0614_Unknown_Unk...  ...             1.0
+199553  AaegL5_3_99588971_99589572_TE_0925_Harbinger_T...  ...             1.0
+199566  AaegL5_3_99662110_99668424_TE_1429_R1_LINE_LIN...  ...             1.0
+199574  AaegL5_3_99753727_99755373_TE_1274_mTA_TIR_MIT...  ...             1.0
+
+[3401 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+32      AaegL5_1_100107455_100108254_TE_0650_Gypsy_Ret...  ...             1.0
+87      AaegL5_1_100423183_100423500_TE_1296_mTA_TIR_M...  ...             1.0
+97      AaegL5_1_100473845_100474285_TE_0517_Copia_Ret...  ...             1.0
+121     AaegL5_1_100635765_100636282_TE_1250_mTA_TIR_M...  ...             1.0
+...                                                   ...  ...             ...
+199421  AaegL5_3_98667815_98674334_TE_1640_Helitron_He...  ...             1.0
+199450  AaegL5_3_98951350_98951771_TE_1113_m4bp_TIR_MI...  ...             1.0
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199548  AaegL5_3_9953946_9959950_TE_1429_R1_LINE_LINE_...  ...             1.0
+199580  AaegL5_3_99788390_99792784_TE_0190_BelPao_Retr...  ...             1.0
+
+[3174 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+92      AaegL5_1_100456498_100457550_TE_1090_Loa_LINE_...  ...             1.0
+104     AaegL5_1_100517267_100517801_TE_1297_mTA_TIR_M...  ...             1.0
+121     AaegL5_1_100635765_100636282_TE_1250_mTA_TIR_M...  ...             1.0
+134     AaegL5_1_100716214_100716751_TE_1360_Pogo_TIR_...  ...             1.0
+166     AaegL5_1_100913236_100915715_TE_1455_RTE_LINE_...  ...             1.0
+...                                                   ...  ...             ...
+199534  AaegL5_3_99479554_99479763_TE_1453_RTE_LINE_LI...  ...             1.0
+199545  AaegL5_3_99532550_99532826_TE_0632_Unknown_Unk...  ...             1.0
+199546  AaegL5_3_99532582_99532825_TE_1463_SINE_SINE_S...  ...             1.0
+199592  AaegL5_3_99850179_99850470_TE_1463_SINE_SINE_S...  ...             1.0
+199593  AaegL5_3_99860394_99860563_TE_1121_m4bp_TIR_MI...  ...             1.0
+
+[3948 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+121     AaegL5_1_100635765_100636282_TE_1250_mTA_TIR_M...  ...             1.0
+165     AaegL5_1_100909050_100909861_TE_0650_Gypsy_Ret...  ...             1.0
+208     AaegL5_1_101133645_101135539_TE_0664_Gypsy_Ret...  ...             1.0
+218     AaegL5_1_101190251_101190470_TE_1270_mTA_TIR_M...  ...             1.0
+285     AaegL5_1_101484176_101484429_TE_1236_MITE_TIR_...  ...             1.0
+...                                                   ...  ...             ...
+199276  AaegL5_3_97669173_97669682_TE_1296_mTA_TIR_MIT...  ...             1.0
+199320  AaegL5_3_97960656_97961462_TE_1620_Unknown_Unk...  ...             1.0
+199325  AaegL5_3_98000044_98003558_TE_1455_RTE_LINE_LI...  ...             1.0
+199372  AaegL5_3_98312128_98319718_TE_0272_BelPao_Retr...  ...             1.0
+199472  AaegL5_3_99068652_99069082_TE_1105_m4bp_TIR_MI...  ...             1.0
+
+[2344 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+30      AaegL5_1_100097436_100098052_TE_1109_m4bp_TIR_...  ...             1.0
+32      AaegL5_1_100107455_100108254_TE_0650_Gypsy_Ret...  ...             1.0
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+136     AaegL5_1_100736456_100737146_TE_1266_mTA_TIR_M...  ...             1.0
+259     AaegL5_1_101355042_101355732_TE_1266_mTA_TIR_M...  ...             1.0
+...                                                   ...  ...             ...
+199566  AaegL5_3_99662110_99668424_TE_1429_R1_LINE_LIN...  ...             1.0
+199580  AaegL5_3_99788390_99792784_TE_0190_BelPao_Retr...  ...             1.0
+199592  AaegL5_3_99850179_99850470_TE_1463_SINE_SINE_S...  ...             1.0
+199604  AaegL5_3_9990962_9993343_TE_1448_RTE_LINE_LINE...  ...             1.0
+199621  AaegL5_3_99990079_99990422_TE_0632_Unknown_Unk...  ...             1.0
+
+[7729 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+55      AaegL5_1_100242352_100242787_TE_0365_Copia_Ret...  ...             1.0
+61      AaegL5_1_100289585_100289868_TE_1463_SINE_SINE...  ...             1.0
+136     AaegL5_1_100736456_100737146_TE_1266_mTA_TIR_M...  ...             1.0
+217     AaegL5_1_10117683_10118287_TE_1109_m4bp_TIR_MI...  ...             1.0
+258     AaegL5_1_101354730_101354941_TE_0315_Copia_Ret...  ...             1.0
+...                                                   ...  ...             ...
+199423  AaegL5_3_9867870_9871557_TE_1456_RTE_LINE_LINE...  ...             1.0
+199472  AaegL5_3_99068652_99069082_TE_1105_m4bp_TIR_MI...  ...             1.0
+199532  AaegL5_3_994355_994699_TE_0632_Unknown_Unknown...  ...             1.0
+199553  AaegL5_3_99588971_99589572_TE_0925_Harbinger_T...  ...             1.0
+199566  AaegL5_3_99662110_99668424_TE_1429_R1_LINE_LIN...  ...             1.0
+
+[2213 rows x 6 columns]
+using largest
+                                           TE_information  ...  frequency_diff
+104     AaegL5_1_100517267_100517801_TE_1297_mTA_TIR_M...  ...             1.0
+218     AaegL5_1_101190251_101190470_TE_1270_mTA_TIR_M...  ...             1.0
+259     AaegL5_1_101355042_101355732_TE_1266_mTA_TIR_M...  ...             1.0
+267     AaegL5_1_10139599_10145890_TE_0994_I_LINE_LINE...  ...             1.0
+332     AaegL5_1_101639810_101639987_TE_1463_SINE_SINE...  ...             1.0
+...                                                   ...  ...             ...
+199325  AaegL5_3_98000044_98003558_TE_1455_RTE_LINE_LI...  ...             1.0
+199345  AaegL5_3_9816238_9820590_TE_0503_Copia_Retrotr...  ...             1.0
+199423  AaegL5_3_9867870_9871557_TE_1456_RTE_LINE_LINE...  ...             1.0
+199459  AaegL5_3_98994541_98995292_TE_1122_m4bp_TIR_MI...  ...             1.0
+199468  AaegL5_3_99042872_99043616_TE_1277_mTA_TIR_MIT...  ...             1.0
+
+[3643 rows x 6 columns]
+Correlation Matrix for All Countries:
+             Kenya   Senegal     Gabon       USA    Brazil  Colombia
+Kenya     1.000000  0.201766  0.137664  0.022686 -0.077310 -0.207566
+Senegal   0.201766  1.000000  0.093897  0.179003  0.053939 -0.034715
+Gabon     0.137664  0.093897  1.000000 -0.259397 -0.356503 -0.534168
+USA       0.022686  0.179003 -0.259397  1.000000  0.326609  0.300229
+Brazil   -0.077310  0.053939 -0.356503  0.326609  1.000000  0.317871
+Colombia -0.207566 -0.034715 -0.534168  0.300229  0.317871  1.000000

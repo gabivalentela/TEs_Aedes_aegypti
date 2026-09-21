@@ -1,0 +1,182 @@
+running it for reference
+Number of TEs with frequency above 0.9 in USA: 45687
+       chromosome  position_start  ...  SRR6768028_USA frequency
+0        AaegL5_1           20922  ...             0/1  0.537037
+1        AaegL5_1           29147  ...             0/0  0.130435
+2        AaegL5_1           63238  ...             ./.  0.205882
+4        AaegL5_1           65643  ...             ./.  0.666667
+5        AaegL5_1           66596  ...             ./.  0.800000
+...           ...             ...  ...             ...       ...
+199615   AaegL5_3       409724427  ...             0/1  0.500000
+199616   AaegL5_3       409724828  ...             0/1  0.869565
+199617   AaegL5_3       409726911  ...             0/0  0.017857
+199619   AaegL5_3       409743080  ...             ./.  0.630435
+199621   AaegL5_3       409770531  ...             ./.  0.973684
+
+[153149 rows x 34 columns]
+Number of TEs with frequency above 0.9 in Gabon: 14681
+       chromosome  position_start  ...  SRR11006834_Gabon frequency
+0        AaegL5_1           20922  ...                0/1  0.500000
+2        AaegL5_1           63238  ...                0/0  0.200000
+6        AaegL5_1           74840  ...                1/1  0.769231
+7        AaegL5_1           75403  ...                0/0  0.166667
+8        AaegL5_1           96464  ...                1/1  0.428571
+...           ...             ...  ...                ...       ...
+199611   AaegL5_3       409705864  ...                0/0  0.076923
+199615   AaegL5_3       409724427  ...                0/1  0.136364
+199616   AaegL5_3       409724828  ...                0/1  0.250000
+199621   AaegL5_3       409770531  ...                0/1  0.730769
+199622   AaegL5_3       409770645  ...                1/1  0.923077
+
+[111939 rows x 19 columns]
+Number of TEs with frequency above 0.9 in Brazil: 27749
+       chromosome  position_start  ...  SRR11006854_Brazil frequency
+0        AaegL5_1           20922  ...                 0/1  0.666667
+1        AaegL5_1           29147  ...                 0/0  0.071429
+2        AaegL5_1           63238  ...                 0/0  0.136364
+4        AaegL5_1           65643  ...                 ./.  0.400000
+7        AaegL5_1           75403  ...                 0/0  0.111111
+...           ...             ...  ...                 ...       ...
+199610   AaegL5_3       409693507  ...                 ./.  0.750000
+199611   AaegL5_3       409705864  ...                 1/1  0.800000
+199615   AaegL5_3       409724427  ...                 1/1  0.625000
+199616   AaegL5_3       409724828  ...                 1/1  0.875000
+199619   AaegL5_3       409743080  ...                 0/0  0.321429
+
+[100258 rows x 24 columns]
+Number of TEs with frequency above 0.9 in Colombia: 34885
+       chromosome  ...  frequency
+6        AaegL5_1  ...   0.958333
+7        AaegL5_1  ...   0.104167
+12       AaegL5_1  ...   0.026316
+13       AaegL5_1  ...   0.958333
+18       AaegL5_1  ...   0.958333
+...           ...  ...        ...
+199615   AaegL5_3  ...   0.357143
+199616   AaegL5_3  ...   0.555556
+199619   AaegL5_3  ...   0.368421
+199621   AaegL5_3  ...   0.812500
+199622   AaegL5_3  ...   0.812500
+
+[124862 rows x 30 columns]
+Number of TEs with frequency above 0.9 in Kenya: 17468
+       chromosome  position_start  ...  SRR11006685_Kenya frequency
+0        AaegL5_1           20922  ...                0/1  0.500000
+1        AaegL5_1           29147  ...                0/0  0.035714
+2        AaegL5_1           63238  ...                ./.  0.250000
+6        AaegL5_1           74840  ...                0/1  0.535714
+7        AaegL5_1           75403  ...                ./.  0.428571
+...           ...             ...  ...                ...       ...
+199617   AaegL5_3       409726911  ...                0/0  0.026316
+199619   AaegL5_3       409743080  ...                ./.  0.666667
+199620   AaegL5_3       409764396  ...                0/0  0.166667
+199621   AaegL5_3       409770531  ...                1/1  0.789474
+199622   AaegL5_3       409770645  ...                1/1  0.921053
+
+[152726 rows x 25 columns]
+Number of TEs with frequency above 0.9 in Senegal: 27182
+       chromosome  position_start  ...  SRR11006770_Senegal frequency
+0        AaegL5_1           20922  ...                  0/1  0.600000
+1        AaegL5_1           29147  ...                  0/0  0.025000
+2        AaegL5_1           63238  ...                  0/1  0.083333
+5        AaegL5_1           66596  ...                  1/1  0.750000
+6        AaegL5_1           74840  ...                  1/1  0.894737
+...           ...             ...  ...                  ...       ...
+199615   AaegL5_3       409724427  ...                  0/0  0.166667
+199616   AaegL5_3       409724828  ...                  ./.  0.500000
+199619   AaegL5_3       409743080  ...                  0/0  0.166667
+199621   AaegL5_3       409770531  ...                  1/1  0.884615
+199622   AaegL5_3       409770645  ...                  1/1  0.964286
+
+[160062 rows x 26 columns]
+running it for nonreference
+Number of TEs with frequency above 0.9 in USA: 113
+       chromosome  position_start  ...  SRR6768028_USA frequency
+3        AaegL5_1           37992  ...             0/0  0.214286
+4        AaegL5_1           39231  ...             0/0  0.142857
+5        AaegL5_1           39255  ...             0/0  0.071429
+6        AaegL5_1           46278  ...             0/0  0.107143
+9        AaegL5_1           49129  ...             0/0  0.107143
+...           ...             ...  ...             ...       ...
+291191   AaegL5_3       409735000  ...             0/0  0.107143
+291192   AaegL5_3       409736110  ...             0/0  0.142857
+291193   AaegL5_3       409737114  ...             0/0  0.071429
+291194   AaegL5_3       409740062  ...             0/0  0.035714
+291195   AaegL5_3       409740072  ...             1/1  0.214286
+
+[188873 rows x 34 columns]
+Number of TEs with frequency above 0.9 in Gabon: 202
+       chromosome  position_start  ...  SRR11006834_Gabon frequency
+2        AaegL5_1           37629  ...                0/0  0.230769
+5        AaegL5_1           39255  ...                0/0  0.384615
+6        AaegL5_1           46278  ...                0/0  0.153846
+7        AaegL5_1           46517  ...                0/0  0.076923
+8        AaegL5_1           48756  ...                0/0  0.384615
+...           ...             ...  ...                ...       ...
+291183   AaegL5_3       409693185  ...                1/1  0.769231
+291184   AaegL5_3       409694104  ...                0/0  0.076923
+291195   AaegL5_3       409740072  ...                0/0  0.076923
+291196   AaegL5_3       409769842  ...                1/1  0.153846
+291197   AaegL5_3       409773217  ...                0/0  0.153846
+
+[124955 rows x 19 columns]
+Number of TEs with frequency above 0.9 in Brazil: 537
+       chromosome  position_start  ...  SRR11006854_Brazil frequency
+2        AaegL5_1           37629  ...                 0/0  0.055556
+4        AaegL5_1           39231  ...                 0/0  0.055556
+5        AaegL5_1           39255  ...                 0/0  0.166667
+6        AaegL5_1           46278  ...                 1/1  0.444444
+7        AaegL5_1           46517  ...                 0/0  0.111111
+...           ...             ...  ...                 ...       ...
+291187   AaegL5_3       409734709  ...                 0/0  0.388889
+291191   AaegL5_3       409735000  ...                 0/0  0.111111
+291192   AaegL5_3       409736110  ...                 0/0  0.111111
+291194   AaegL5_3       409740062  ...                 0/0  0.055556
+291195   AaegL5_3       409740072  ...                 0/0  0.166667
+
+[141205 rows x 24 columns]
+Number of TEs with frequency above 0.9 in Colombia: 392
+       chromosome  ...  frequency
+5        AaegL5_1  ...   0.166667
+6        AaegL5_1  ...   0.250000
+15       AaegL5_1  ...   0.041667
+18       AaegL5_1  ...   0.208333
+30       AaegL5_1  ...   0.500000
+...           ...  ...        ...
+291187   AaegL5_3  ...   0.958333
+291191   AaegL5_3  ...   0.166667
+291192   AaegL5_3  ...   0.166667
+291194   AaegL5_3  ...   0.208333
+291195   AaegL5_3  ...   0.250000
+
+[148352 rows x 30 columns]
+Number of TEs with frequency above 0.9 in Kenya: 74
+       chromosome  position_start  ...  SRR11006685_Kenya frequency
+3        AaegL5_1           37992  ...                0/0  0.052632
+4        AaegL5_1           39231  ...                0/0  0.052632
+5        AaegL5_1           39255  ...                1/1  0.157895
+6        AaegL5_1           46278  ...                0/0  0.263158
+8        AaegL5_1           48756  ...                1/1  0.842105
+...           ...             ...  ...                ...       ...
+291191   AaegL5_3       409735000  ...                0/0  0.052632
+291192   AaegL5_3       409736110  ...                0/0  0.052632
+291196   AaegL5_3       409769842  ...                1/1  0.473684
+291197   AaegL5_3       409773217  ...                1/1  0.210526
+291198   AaegL5_3       409773424  ...                1/1  0.157895
+
+[160666 rows x 25 columns]
+Number of TEs with frequency above 0.9 in Senegal: 312
+       chromosome  position_start  ...  SRR11006770_Senegal frequency
+0        AaegL5_1           30958  ...                  1/1      0.10
+1        AaegL5_1           30988  ...                  1/1      0.10
+2        AaegL5_1           37629  ...                  0/0      0.20
+4        AaegL5_1           39231  ...                  0/0      0.20
+5        AaegL5_1           39255  ...                  0/0      0.25
+...           ...             ...  ...                  ...       ...
+291189   AaegL5_3       409734950  ...                  1/1      0.15
+291190   AaegL5_3       409734950  ...                  1/1      0.10
+291191   AaegL5_3       409735000  ...                  0/0      0.05
+291194   AaegL5_3       409740062  ...                  0/0      0.05
+291198   AaegL5_3       409773424  ...                  0/0      0.05
+
+[198899 rows x 26 columns]

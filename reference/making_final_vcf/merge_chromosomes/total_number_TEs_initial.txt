@@ -1,0 +1,4 @@
+output_complete_AaegL5_1.vcf: 515230
+output_complete_AaegL5_2.vcf: 840664
+output_complete_AaegL5_3.vcf: 716556
+Total number of TEs in combined dataframe: 2072450

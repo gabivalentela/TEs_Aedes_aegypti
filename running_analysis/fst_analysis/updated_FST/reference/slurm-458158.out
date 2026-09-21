@@ -1,0 +1,45 @@
+
+--- FST: Senegal vs Gabon (199623 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Gabon): 0.2990
+
+--- FST: Senegal vs Colombia (199623 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Colombia): 0.3153
+
+--- FST: Senegal vs Kenya (199623 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Kenya): 0.2131
+
+--- FST: Senegal vs Brazil (199623 candidate sites) ---
+Genome-wide weighted FST (Senegal vs Brazil): 0.3061
+
+--- FST: Senegal vs USA (199623 candidate sites) ---
+Genome-wide weighted FST (Senegal vs USA): 0.2278
+
+--- FST: Gabon vs Colombia (199623 candidate sites) ---
+Genome-wide weighted FST (Gabon vs Colombia): 0.5235
+
+--- FST: Gabon vs Kenya (199623 candidate sites) ---
+Genome-wide weighted FST (Gabon vs Kenya): 0.2441
+
+--- FST: Gabon vs Brazil (199623 candidate sites) ---
+Genome-wide weighted FST (Gabon vs Brazil): 0.5409
+
+--- FST: Gabon vs USA (199623 candidate sites) ---
+Genome-wide weighted FST (Gabon vs USA): 0.4606
+
+--- FST: Colombia vs Kenya (199623 candidate sites) ---
+Genome-wide weighted FST (Colombia vs Kenya): 0.3941
+
+--- FST: Colombia vs Brazil (199623 candidate sites) ---
+Genome-wide weighted FST (Colombia vs Brazil): 0.2852
+
+--- FST: Colombia vs USA (199623 candidate sites) ---
+Genome-wide weighted FST (Colombia vs USA): 0.2581
+
+--- FST: Kenya vs Brazil (199623 candidate sites) ---
+Genome-wide weighted FST (Kenya vs Brazil): 0.3982
+
+--- FST: Kenya vs USA (199623 candidate sites) ---
+Genome-wide weighted FST (Kenya vs USA): 0.3156
+
+--- FST: Brazil vs USA (199623 candidate sites) ---
+Genome-wide weighted FST (Brazil vs USA): 0.1999

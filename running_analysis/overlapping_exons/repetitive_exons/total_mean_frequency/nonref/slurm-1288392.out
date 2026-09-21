@@ -1,0 +1,31 @@
+/work/users/g/a/gabivla/lab/SV_mosquitos/TE_paper_aedesaegytpi/running_analysis_new_VCFs/overlapping_exons/repetitive_exons/total_mean_frequency/nonref/non_ref_overlap.py:357: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax1.legend(loc="upper left")
+
+--- Data for Brazil ---
+Unique TEs overlapping repetitive in Brazil: 116572
+
+--- Data for Colombia ---
+Unique TEs overlapping repetitive in Colombia: 123406
+
+--- Data for USA ---
+Unique TEs overlapping repetitive in USA: 153317
+
+--- Data for Gabon ---
+Unique TEs overlapping repetitive in Gabon: 102664
+
+--- Data for Kenya ---
+Unique TEs overlapping repetitive in Kenya: 132784
+
+--- Data for Senegal ---
+Unique TEs overlapping repetitive in Senegal: 161119
+Overall mean frequency - exonic: 0.2190
+Overall mean frequency - non-exonic: 0.1804
+          Exonic and Repetitive  ...  Non-Exonic and Non-Repetitive
+Brazil                 0.270329  ...                       0.228221
+Colombia               0.282132  ...                       0.203792
+USA                    0.195703  ...                       0.149598
+Gabon                  0.225211  ...                       0.172077
+Kenya                  0.183754  ...                       0.133467
+Senegal                0.210835  ...                       0.154579
+
+[6 rows x 4 columns]
