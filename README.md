@@ -9,7 +9,7 @@ The consensus TE file added to this rep was from the paper Daron et al. 2024.
 The Repetitive regions annotations came from the paper Love et al. 2023.
 
 ## General description of directories within this repo:
-- IR_genes: contains the list of genes found to be important for insecticide resistance in Aedes aegypti. These lists were made in Love et at. 2023.
+- IR_genes: contains the list of genes found to be important for insecticide resistance in Aedes aegypti. These lists were obtained from the paper Love et at. 2023.
 - annotation_genome: vectorbase annotation of the Aedes aegypti genome used for analysis of gene and exon overlaps.
 - consensus_TEs: TE library obtained from the paper Daron et al. 2024.
 - final_VCF_TEs: final VCF files of reference and nonreference TEs made in this paper after all filtering and post-processing steps.
