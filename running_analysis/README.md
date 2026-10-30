@@ -5,7 +5,7 @@ This directory contains all scripts used to perform the population genetic analy
 The directory includes the following analyses:
 
 - **`characterization_analysis`** – Generating PCA plots and calculating TE counts across countries.
-- **`evolutionary_constraints`** – Identifying TEs with different frequencies across countries and determining which of these overlap immune-related (IR) genes and have evidence of selective sweeps based on SweepFinder2 results.
+- **`evolutionary_constraints`** – Identifying TEs with different frequencies across countries and determining which of these overlap IR genes and have evidence of selective sweeps based on SweepFinder2 results.
 - **`fst_analysis`** – Calculating FST values for TEs and genome-wide FST values using the full TE dataset, allowing comparisons with SNP-based results.
 - **`genome_contribution_lengths_reference_TEs`** – Calculating the proportion of the genome occupied by TEs and assessing differences in genome composition.
 - **`high_frequency_TEs`** – Identifying TEs present at high frequencies in the populations.
